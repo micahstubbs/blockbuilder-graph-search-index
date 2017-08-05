@@ -1,0 +1,30 @@
+{
+  "name": "blockbuilder-graph-search-index",
+  "version": "1.0.0",
+  "description": "backend for the blockbuilder d3 example graph search engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micahstubbs/blockbuilder-graph-search-index.git"
+  },
+  "keywords": [
+    "graph",
+    "node",
+    "javascript",
+    "cypher",
+    "neo4j",
+    "d3"
+  ],
+  "author": "@micahstubbs <micah.stubbs@gmail.com> (https://twitter.com/micahstubbs)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/micahstubbs/blockbuilder-graph-search-index/issues"
+  },
+  "homepage": "https://github.com/micahstubbs/blockbuilder-graph-search-index#readme",
+  "dependencies": {
+    "csv-write-stream": "^2.0.0"
+  }
+}
