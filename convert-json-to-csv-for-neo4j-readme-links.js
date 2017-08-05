@@ -1,10 +1,10 @@
 const fs = require('fs');
 const csvWriter = require('csv-write-stream');
 
-const inputDir = 'data/source-graphs/';
-const inputFile = `${inputDir}readme-blocks-graph.json`;
-const outputDir = 'data/csv-graphs-for-neo4j/';
-const metricsOutputDir = 'data/graph-metrics/';
+const inputDir = 'data/source-graphs';
+const inputFile = `${inputDir}/readme-blocks-graph.json`;
+const outputDir = 'data/csv-graphs-for-neo4j';
+const metricsOutputDir = 'data/graph-metrics';
 
 const inputData = JSON.parse(fs.readFileSync(inputFile, 'utf-8'));
 
@@ -48,7 +48,7 @@ inputData.graph.nodes.forEach(inputNode => {
 });
 
 // write a csv file
-let outputFile = `${outputDir}readme-links-blocks.csv`;
+let outputFile = `${outputDir}/readme-links-blocks.csv`;
 let writer = csvWriter();
 writer.pipe(fs.createWriteStream(outputFile));
 outputData.graph.nodes.forEach(d => {
@@ -60,7 +60,7 @@ writer.end();
 const nodesObjs = nodeList.map(d => ({
   id: replaceNull(d)
 }));
-outputFile = `${metricsOutputDir}readme-links-nodelist.csv`;
+outputFile = `${metricsOutputDir}/readme-links-nodelist.csv`;
 writer = csvWriter();
 writer.pipe(fs.createWriteStream(outputFile));
 nodesObjs.forEach(d => {
@@ -88,7 +88,7 @@ inputData.graph.links.forEach((inputLink, i) => {
 });
 
 // write a csv file
-outputFile = `${outputDir}readme-links-relationships.csv`;
+outputFile = `${outputDir}/readme-links-relationships.csv`;
 writer = csvWriter();
 writer.pipe(fs.createWriteStream(outputFile));
 outputData.graph.links.forEach(d => {
@@ -102,7 +102,7 @@ const missingNodesObjs = missingNodes.map(d => ({
 }));
 // console.log('missingNodes', missingNodes);
 // console.log('missingNodesObjs', missingNodesObjs);
-outputFile = `${metricsOutputDir}readme-links-missing-nodes.csv`;
+outputFile = `${metricsOutputDir}/readme-links-missing-nodes.csv`;
 writer = csvWriter();
 writer.pipe(fs.createWriteStream(outputFile));
 missingNodesObjs.forEach(d => {
