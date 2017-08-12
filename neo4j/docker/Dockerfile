@@ -15,6 +15,9 @@ RUN apk add --no-cache --quiet \
   tar \
   zip
 
+# Update or install openssl so that APOC request will work
+RUN apk add --update openssl
+
 # Install Neo4j APOC plugin
 RUN wget --quiet --directory-prefix=/var/lib/neo4j/plugins \
   https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/3.0.4.1/apoc-3.0.4.1-all.jar
