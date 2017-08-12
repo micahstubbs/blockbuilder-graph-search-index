@@ -14,12 +14,12 @@ else
   echo "Not retrieving database as it already exists"
 fi
 
-if [ ! -d "guides" ]; then
-  echo "Downloading and extracting guides"
-  cp --recursive /guides ./
-  GUIDES_URL="https://github.com/dhimmel/het.io-rep-guides/raw/4837f3dcdcdb56b14fdc2b998c8571ae7aad6b36/guides.tar.bz2"
-  mkdir guides/rep
-  curl --silent --location $GUIDES_URL | tar --extract --bzip2 --strip-components=1 --directory=guides/rep
-else
-  echo "Not retrieving guides as they already exist"
-fi
+# if [ ! -d "guides" ]; then
+#   echo "Downloading and extracting guides"
+#   cp --recursive /guides ./
+#   GUIDES_URL="https://github.com/dhimmel/het.io-rep-guides/raw/4837f3dcdcdb56b14fdc2b998c8571ae7aad6b36/guides.tar.bz2"
+#   mkdir guides/rep
+#   curl --silent --location $GUIDES_URL | tar --extract --bzip2 --strip-components=1 --directory=guides/rep
+# else
+#   echo "Not retrieving guides as they already exist"
+# fi
