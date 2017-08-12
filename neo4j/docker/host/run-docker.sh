@@ -1,4 +1,4 @@
-# Start dhimmel/hetionet container
+# Start micahstubbs/blockbuilder-graph-search container
 # See https://neo4j.com/developer/docker-3.x/ for doc
 docker run \
   --detach \
