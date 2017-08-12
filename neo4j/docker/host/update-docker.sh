@@ -6,7 +6,7 @@ cd ~/
 sh stop-docker.sh
 
 # Pull the latest docker image
-docker pull dhimmel/hetionet
+docker pull micahstubbs/blockbuilder-graph-search
 
 # start docker
 sh run-docker.sh
