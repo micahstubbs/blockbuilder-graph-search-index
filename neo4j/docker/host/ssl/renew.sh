@@ -11,8 +11,8 @@ sh stop-docker.sh
 
 # renew certificates
 letsencrypt renew --non-interactive
-cp /etc/letsencrypt/live/neo4j.het.io/fullchain.pem ~/ssl/neo4j.cert
-cp /etc/letsencrypt/live/neo4j.het.io/privkey.pem ~/ssl/neo4j.key
+cp /etc/letsencrypt/live/d3.graphdata.org/fullchain.pem ~/ssl/d3.cert
+cp /etc/letsencrypt/live/d3.graphdata.org/privkey.pem ~/ssl/d3.key
 
 # start docker
 sh run-docker.sh
