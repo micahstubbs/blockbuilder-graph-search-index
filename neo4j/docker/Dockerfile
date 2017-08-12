@@ -16,8 +16,8 @@ RUN apk add --no-cache --quiet \
   zip
 
 # Install Neo4j APOC plugin
-# RUN wget --quiet --directory-prefix=/var/lib/neo4j/plugins \
-#  https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/3.0.4.1/apoc-3.0.4.1-all.jar
+RUN wget --quiet --directory-prefix=/var/lib/neo4j/plugins \
+  https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/3.0.4.1/apoc-3.0.4.1-all.jar
 
 # Update the Neo4j Browser source to improve search results and add Piwik Analytics
 # RUN cd /var/lib/neo4j/lib && \
