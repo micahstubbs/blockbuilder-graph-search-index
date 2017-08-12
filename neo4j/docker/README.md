@@ -11,7 +11,7 @@ The contents of this repository are mostly included in the Docker image. However
 Build the image using the following command:
 
 ```sh
-TAG="micahstubbs/blockbuilder-graph-search:hetionet-v1.0_neo4j-3.1.4"
+TAG="micahstubbs/blockbuilder-graph-search:blockbuilder-graph-search-v1.0_neo4j-3.1.4"
 docker build --tag micahstubbs/blockbuilder-graph-search:latest --tag $TAG --file Dockerfile .
 ```
 
@@ -27,7 +27,7 @@ docker run \
   --publish=7474:7474 \
   --publish=7687:7687 \
   --volume=$HOME/neo4j/blockbuilder-graph-search-data:/data \
-  --volume=$HOME/neo4j/hetionet-logs:/logs \
+  --volume=$HOME/neo4j/blockbuilder-graph-search-data-logs:/logs \
   micahstubbs/blockbuilder-graph-search
 ```
 
