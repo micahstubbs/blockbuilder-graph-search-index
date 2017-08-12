@@ -1,13 +1,13 @@
 FROM neo4j:3.1.4
-MAINTAINER Daniel Himmelstein, <daniel.himmelstein@gmail.com>
+MAINTAINER Micah Stubbs, <micahstubbs@gmail.com>
 
 COPY scripts /
 RUN chmod +x /get_data_run_neo4j.sh
 
 COPY files/neo4j.conf /var/lib/neo4j/conf/
-COPY files/piwik.html /
+# COPY files/piwik.html /
 COPY files/neo4j-guide-extension-3.0.1.jar /var/lib/neo4j/plugins
-COPY guides /guides
+# COPY guides /guides
 
 # Update or install packages
 RUN apk add --no-cache --quiet \
