@@ -20,19 +20,19 @@ RUN apk add --no-cache --quiet \
 #  https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/3.0.4.1/apoc-3.0.4.1-all.jar
 
 # Update the Neo4j Browser source to improve search results and add Piwik Analytics
-RUN cd /var/lib/neo4j/lib && \
-  JAR_PATH=`ls neo4j-browser-*` && \
-  HTML_PATH=browser/index.html && \
-  unzip $JAR_PATH $HTML_PATH && \
-  OLD='<title ng-bind-template="Neo4j {{titlebarString}}">Neo4j</title>' && \
-  NEW='<title>Hetionet · Neo4j Browser</title>' && \
-  sed --in-place "s|$OLD|$NEW|" $HTML_PATH && \
-  OLD='<meta name="description" content="Neo4j Browser">' && \
-  NEW='<meta name="description" content="Hetionet Browser. Use Neo4j to query and explore a network of biomedical knowledge.">' && \
-  sed --in-place "s|$OLD|$NEW|" $HTML_PATH && \
-  sed --in-place --expression='/<\/head>/r /piwik.html' --expression='x;$G' $HTML_PATH && \
-  zip $JAR_PATH $HTML_PATH && \
-  rm -r browser /piwik.html
+# RUN cd /var/lib/neo4j/lib && \
+#   JAR_PATH=`ls neo4j-browser-*` && \
+#   HTML_PATH=browser/index.html && \
+#   unzip $JAR_PATH $HTML_PATH && \
+#   OLD='<title ng-bind-template="Neo4j {{titlebarString}}">Neo4j</title>' && \
+#   NEW='<title>Hetionet · Neo4j Browser</title>' && \
+#   sed --in-place "s|$OLD|$NEW|" $HTML_PATH && \
+#   OLD='<meta name="description" content="Neo4j Browser">' && \
+#   NEW='<meta name="description" content="Hetionet Browser. Use Neo4j to query and explore a network of biomedical knowledge.">' && \
+#   sed --in-place "s|$OLD|$NEW|" $HTML_PATH && \
+#   sed --in-place --expression='/<\/head>/r /piwik.html' --expression='x;$G' $HTML_PATH && \
+#   zip $JAR_PATH $HTML_PATH && \
+#   rm -r browser /piwik.html
 
 ENV NEO4J_AUTH none
 
