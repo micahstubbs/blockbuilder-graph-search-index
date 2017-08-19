@@ -8,6 +8,7 @@ const inputData = JSON.parse(fs.readFileSync(inputFile, 'utf-8'));
 const outputDir = 'data/csv-graphs-for-neo4j'
 const outputData = [];
 
+
 inputData.forEach(block => {
   const functionsObject = block.api;
   const functionsArray = Object.keys(functionsObject);
@@ -24,6 +25,7 @@ inputData.forEach(block => {
       outputData.push(linkObject);
     }
   });
+}
 });
 
 // write a csv file
