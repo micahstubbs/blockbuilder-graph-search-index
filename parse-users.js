@@ -1,15 +1,15 @@
 const fs = require('fs');
 const csvWriter = require('csv-write-stream');
 
-const inputDir = 'data/source-graphs';
-const inputFile = `${inputDir}/readme-blocks-graph.json`;
+const inputDir = 'data/source-data';
+const inputFile = `${inputDir}/blocks-min.json`;
 const outputDir = 'data/csv-graphs-for-neo4j';
 
 const inputData = JSON.parse(fs.readFileSync(inputFile, 'utf-8'));
 const usersHash = {};
 
-inputData.graph.nodes.forEach(inputNode => {
-  usersHash[inputNode.user] = true;
+inputData.forEach(inputNode => {
+  usersHash[inputNode.userId] = true;
 });
 
 // write a csv file

@@ -6,26 +6,8 @@ const outputDir = 'data/csv-graphs-for-neo4j';
 
 // load data synchronously for now
 // slower than async, but easier to reason about
-const readmeLinksInputFile = `${inputDir}/readme-blocks-graph.json`;
-const readmeLinksInputData = JSON.parse(
-  fs.readFileSync(readmeLinksInputFile, 'utf-8')
-);
-
-// const functionsInputFile = `${inputDir}/blocks-api.json`;
-// const functionsInputData = JSON.parse(
-//   fs.readFileSync(functionsInputFile, 'utf-8')
-// );
-// const formattedFunctionsInputData = functionsInputData.map(block => {
-//   const nodeObject = {};
-//   nodeObject.id = block.id;
-//   nodeObject.user = block.userId;
-//   nodeObject.createdAt = block.created_at;
-//   nodeObject.updatedAt = block.updated_at;
-//   return nodeObject;
-// })
-
-// const inputDatasets = [readmeLinksInputData, functionsInputData];
-// const inputData = [].concat.apply([], inputDatasets);
+const inputFile = `${inputDir}/blocks-min.json`;
+const inputData = JSON.parse(fs.readFileSync(inputFile, 'utf-8'));
 
 let outputData = [];
 const nodeHash = {};
@@ -40,14 +22,15 @@ inputData.forEach(inputNode => {
   // use neo4j conventions for keys
   nodeObject['gistId:ID'] = inputNode.id;
   // model users as nodes too later?
-  nodeObject.user = replaceNull(inputNode.user);
-  nodeObject.createdAt = replaceNull(inputNode.createdAt);
-  nodeObject.updatedAt = replaceNull(inputNode.updatedAt);
+  nodeObject.user = replaceNull(inputNode.userId);
+  nodeObject.createdAt = replaceNull(inputNode.created_at);
+  nodeObject.updatedAt = replaceNull(inputNode.updated_at);
   nodeObject.description = replaceNull(inputNode.description);
   nodeObject[':LABEL'] = ''; // add tags here later
   nodeHash[inputNode.id] = nodeObject;
 });
 
+// generate an array of unique blocks
 outputData = Object.keys(nodeHash).map(key => nodeHash[key]);
 
 // write a csv file
