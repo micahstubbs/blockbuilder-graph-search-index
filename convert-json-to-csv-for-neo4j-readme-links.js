@@ -27,7 +27,6 @@ function replaceNull(value) {
 // prune links that refer to missing nodes
 const missingNodes = [];
 const nodeList = inputData.graph.nodes.map(d => d.id);
-const usersHash = {};
 // console.log('nodeList', nodeList);
 
 //
@@ -46,7 +45,6 @@ inputData.graph.nodes.forEach(inputNode => {
   nodeObject.description = replaceNull(inputNode.description);
   nodeObject[':LABEL'] = ''; // add tags here later
   outputData.graph.nodes.push(nodeObject);
-  usersHash[inputNode.user] = true;
 });
 
 // write a csv file
@@ -66,16 +64,6 @@ outputFile = `${metricsOutputDir}/readme-links-nodelist.csv`;
 writer = csvWriter();
 writer.pipe(fs.createWriteStream(outputFile));
 nodesObjs.forEach(d => {
-  writer.write(d);
-});
-writer.end();
-
-// write a csv file
-const usersData = Object.keys(usersHash).map(d => ({ user: d }));
-outputFile = `${outputDir}/users.csv`;
-writer = csvWriter();
-writer.pipe(fs.createWriteStream(outputFile));
-usersData.forEach(d => {
   writer.write(d);
 });
 writer.end();
