@@ -1,7 +1,7 @@
 const fs = require('fs');
 const csvWriter = require('csv-write-stream');
 
-const inputPath = 'data/source-graphs';
+const inputPath = 'data/source-data';
 const inputFile = `${inputPath}/blocks-api.json`;
 const inputData = JSON.parse(fs.readFileSync(inputFile, 'utf-8'));
 

@@ -1,7 +1,7 @@
 const fs = require('fs');
 const csvWriter = require('csv-write-stream');
 
-const inputDir = 'data/source-graphs';
+const inputDir = 'data/source-data';
 const outputDir = 'data/csv-graphs-for-neo4j';
 
 // load data synchronously for now
@@ -11,13 +11,21 @@ const readmeLinksInputData = JSON.parse(
   fs.readFileSync(readmeLinksInputFile, 'utf-8')
 );
 
-const functionsInputFile = `${inputDir}/blocks-api.json`;
-const functionsInputData = JSON.parse(
-  fs.readFileSync(functionsInputFile, 'utf-8')
-);
+// const functionsInputFile = `${inputDir}/blocks-api.json`;
+// const functionsInputData = JSON.parse(
+//   fs.readFileSync(functionsInputFile, 'utf-8')
+// );
+// const formattedFunctionsInputData = functionsInputData.map(block => {
+//   const nodeObject = {};
+//   nodeObject.id = block.id;
+//   nodeObject.user = block.userId;
+//   nodeObject.createdAt = block.created_at;
+//   nodeObject.updatedAt = block.updated_at;
+//   return nodeObject;
+// })
 
-const inputDatasets = [readmeLinksInputData, functionsInputData];
-const inputData = [].concat.apply([], inputDatasets);
+// const inputDatasets = [readmeLinksInputData, functionsInputData];
+// const inputData = [].concat.apply([], inputDatasets);
 
 let outputData = [];
 const nodeHash = {};
