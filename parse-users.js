@@ -13,7 +13,11 @@ inputData.graph.nodes.forEach(inputNode => {
 });
 
 // write a csv file
-const usersData = Object.keys(usersHash).map(d => ({ user: d }));
+const usersData = Object.keys(usersHash).map(d => {
+  const nodeObject = {};
+  nodeObject['user:ID'] = d;
+  return nodeObject;
+});
 outputFile = `${outputDir}/users.csv`;
 writer = csvWriter();
 writer.pipe(fs.createWriteStream(outputFile));
