@@ -10,11 +10,11 @@ const outputData = [];
 
 inputData.graph.nodes.forEach(inputNode => {
   const linkObject = {};
-  linkObject[':START_ID(user)'] = replaceNull(inputNode.user);
-  linkObject[':END_ID(gistId)'] = replaceNull(inputNode.id);
+  linkObject[':START_ID'] = replaceNull(inputNode.user);
+  linkObject[':END_ID'] = replaceNull(inputNode.id);
   linkObject[':TYPE'] = 'BUILT';
 
-  if (linkObject[':START_ID(user)'].length > 0 && linkObject[':END_ID(gistId)'].length > 0) {
+  if (linkObject[':START_ID'].length > 0 && linkObject[':END_ID'].length > 0) {
     outputData.push(linkObject);
   }
 });
