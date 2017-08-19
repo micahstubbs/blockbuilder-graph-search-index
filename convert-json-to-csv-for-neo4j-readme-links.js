@@ -80,10 +80,20 @@ inputData.graph.links.forEach((inputLink, i) => {
     missingNodes.push(inputLink.target);
   } else {
     const linkObject = {};
-    linkObject[':START_ID'] = replaceNull(inputLink.source);
-    linkObject[':END_ID'] = replaceNull(inputLink.target);
+    linkObject[':START_ID(gistId)'] = replaceNull(inputLink.source);
+    linkObject[':END_ID(gistId)'] = replaceNull(inputLink.target);
     linkObject[':TYPE'] = 'LINKS_TO';
-    outputData.graph.links.push(linkObject);
+
+    // add this check to avoid links with blank strings as source or target
+    // which in turn avoids the
+    // ...is missing END_ID field
+    // neo4j import error
+    if (
+      linkObject[':START_ID(gistId)'].length > 0 &&
+      linkObject[':END_ID(gistId)'].length > 0
+    ) {
+      outputData.graph.links.push(linkObject);
+    }
   }
 });
 
