@@ -1,13 +1,12 @@
 const fs = require('fs');
 const csvWriter = require('csv-write-stream');
 
-const inputPath = 'data/source-graphs';
+const inputPath = 'data/source-data';
 const inputFile = `${inputPath}/blocks-api.json`;
 const inputData = JSON.parse(fs.readFileSync(inputFile, 'utf-8'));
 
-const outputDir = 'data/csv-graphs-for-neo4j'
+const outputDir = 'data/csv-graphs-for-neo4j';
 const outputData = [];
-
 
 inputData.forEach(block => {
   const functionsObject = block.api;
@@ -25,7 +24,6 @@ inputData.forEach(block => {
       outputData.push(linkObject);
     }
   });
-}
 });
 
 // write a csv file
