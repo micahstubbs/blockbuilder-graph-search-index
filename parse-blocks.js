@@ -37,7 +37,7 @@ inputData.forEach(inputNode => {
   nodeObject.updatedAt = replaceNull(inputNode.updatedAt);
   nodeObject.description = replaceNull(inputNode.description);
   nodeObject[':LABEL'] = ''; // add tags here later
-  nodeHash[inputNode.id] = inputNode;
+  nodeHash[inputNode.id] = nodeObject;
 });
 
 outputData = Object.keys(nodeHash).map(key => nodeHash[key]);
