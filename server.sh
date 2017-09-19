@@ -1,6 +1,9 @@
 # ssh into digitalocean droplet
 ssh root@138.197.194.92
 
+# copy local folder to server
+scp -r build root@138.197.194.92:/root/workspace/blockbuilder-graph-search-ui/
+
 # setup a non-root user
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04
 
@@ -67,8 +70,27 @@ cd /root/workspace/bbgs-ui-prototypes
 # start server with pm2
 pm2 start /usr/local/lib/node_modules/http-server/bin/http-server . --name blockbuilder-graph-search -- -p 8080 -d false
 
+# webpack static build
+pm2 start /usr/local/lib/node_modules/http-server/bin/http-server --name bbgs-ui -- build -p 8080 -d false
+pm2 start /usr/local/lib/node_modules/serve/bin/serve --name blockbuilder-graph-search-ui -- build -p 8080 -s
+
 # start web server with http-server in background mode
 nohup http-server -p 8080 &
+
+#
+# alternately serve static bundle of React app with `serve`
+#
+
+# one time install 
+yarn global add serve
+
+# then everytime you want to start the webserver for the ui
+cd /root/workspace/blockbuilder-graph-search-ui/
+# single page, port 8080
+serve -s build -p 8080
+
+# find process running on a port
+sudo lsof -n -i :8080 | grep LISTEN
 
 # see open ports on server
 netstat -ntlp | grep LISTEN
@@ -88,6 +110,6 @@ scp neo4j.conf root@138.197.194.92:/etc/neo4j/
 
 # command to manually import graph on the server
 neo4j-import --into /var/lib/neo4j/data/databases/graph.db/ --nodes /root/workspace/blockbuilder-graph-search-index/data/csv-graphs-for-neo4j/readme-links-blocks.csv --relationships /root/workspace/blockbuilder-graph-search-index/data/csv-graphs-for-neo4j/readme-links-relationships.csv
- 
+
 
 
