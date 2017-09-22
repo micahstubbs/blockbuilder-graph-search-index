@@ -4,6 +4,11 @@ ssh root@138.197.194.92
 # copy local folder to server
 scp -r build root@138.197.194.92:/root/workspace/blockbuilder-graph-search-ui/
 
+# build and deploy
+cd /Users/m/workspace/blockbuilder-graph-search-ui
+yarn build
+scp -r build root@138.197.194.92:/root/workspace/blockbuilder-graph-search-ui/
+
 # setup a non-root user
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04
 
@@ -72,7 +77,7 @@ pm2 start /usr/local/lib/node_modules/http-server/bin/http-server . --name block
 
 # webpack static build
 pm2 start /usr/local/lib/node_modules/http-server/bin/http-server --name bbgs-ui -- build -p 8080 -d false
-pm2 start /usr/local/lib/node_modules/serve/bin/serve --name blockbuilder-graph-search-ui -- build -p 8080 -s
+# pm2 start /usr/local/lib/node_modules/serve/bin/serve --name blockbuilder-graph-search-ui -- build -p 8080 -s
 
 # start web server with http-server in background mode
 nohup http-server -p 8080 &
