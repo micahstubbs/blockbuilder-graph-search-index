@@ -1,7 +1,7 @@
 const fs = require('fs');
 const csvWriter = require('csv-write-stream');
 
-const inputDir = 'data/source-graphs';
+const inputDir = 'data/source-data';
 const inputFile = `${inputDir}/readme-blocks-graph.json`;
 const outputDir = 'data/csv-graphs-for-neo4j';
 const metricsOutputDir = 'data/graph-metrics';
