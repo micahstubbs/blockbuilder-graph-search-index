@@ -12,14 +12,14 @@
         "id": "4062045",
         "user": "mbostock",
         "createdAt": "2012-11-12T21:31:44Z",
-        "updatedAt": "2017-08-12T08:31:21Z",
+        "updatedAt": "2017-08-25T05:32:06Z",
         "description": "Force-Directed Graph"
       },
       {
         "id": "4339083",
         "user": "mbostock",
         "createdAt": "2012-12-19T18:27:41Z",
-        "updatedAt": "2017-07-21T12:17:45Z",
+        "updatedAt": "2017-09-06T16:35:49Z",
         "description": "Collapsible Tree"
       },
       {
@@ -63,6 +63,34 @@
         "createdAt": "2012-09-07T23:25:31Z",
         "updatedAt": "2016-08-19T17:23:56Z",
         "description": "Table-driven plot in d3.js"
+      },
+      {
+        "id": "3680958",
+        "user": "mbostock",
+        "createdAt": "2012-09-08T23:22:57Z",
+        "updatedAt": "2017-08-30T13:25:23Z",
+        "description": "Canvas Geometric Zooming"
+      },
+      {
+        "id": "3681006",
+        "user": "mbostock",
+        "createdAt": "2012-09-08T23:27:12Z",
+        "updatedAt": "2017-08-30T13:26:15Z",
+        "description": "Canvas Semantic Zooming"
+      },
+      {
+        "id": "3680999",
+        "user": "mbostock",
+        "createdAt": "2012-09-08T23:26:45Z",
+        "updatedAt": "2017-08-30T13:24:52Z",
+        "description": "SVG Geometric Zooming"
+      },
+      {
+        "id": "3680957",
+        "user": "mbostock",
+        "createdAt": "2012-09-08T23:22:52Z",
+        "updatedAt": "2017-08-30T13:26:06Z",
+        "description": "SVG Semantic Zooming"
       },
       {
         "id": "4053870",
@@ -145,7 +173,7 @@
         "id": "4060606",
         "user": "mbostock",
         "createdAt": "2012-11-12T17:17:13Z",
-        "updatedAt": "2017-07-09T20:28:29Z",
+        "updatedAt": "2017-09-13T16:21:53Z",
         "description": "Choropleth"
       },
       {
@@ -194,7 +222,7 @@
         "id": "4349545",
         "user": "mbostock",
         "createdAt": "2012-12-20T23:30:47Z",
-        "updatedAt": "2017-04-19T22:05:32Z",
+        "updatedAt": "2017-08-21T02:55:24Z",
         "description": "Brush Handles"
       },
       {
@@ -229,7 +257,7 @@
         "id": "4183330",
         "user": "mbostock",
         "createdAt": "2012-12-01T17:21:28Z",
-        "updatedAt": "2017-07-08T15:35:17Z",
+        "updatedAt": "2017-09-14T00:20:33Z",
         "description": "World Tour"
       },
       {
@@ -278,7 +306,7 @@
         "id": "4132797",
         "user": "mbostock",
         "createdAt": "2012-11-22T20:22:39Z",
-        "updatedAt": "2017-06-24T13:17:42Z",
+        "updatedAt": "2017-08-22T15:56:28Z",
         "description": "Zoomable Map Tiles"
       },
       {
@@ -306,7 +334,7 @@
         "id": "2368837",
         "user": "mbostock",
         "createdAt": "2012-04-12T16:27:09Z",
-        "updatedAt": "2017-08-11T00:16:16Z",
+        "updatedAt": "2017-08-23T22:01:52Z",
         "description": "Bar Chart with Negative Values"
       },
       {
@@ -334,7 +362,7 @@
         "id": "3711652",
         "user": "mbostock",
         "createdAt": "2012-09-13T03:25:16Z",
-        "updatedAt": "2017-06-20T00:20:13Z",
+        "updatedAt": "2017-08-14T21:12:31Z",
         "description": "Projection Transitions"
       },
       {
@@ -355,7 +383,7 @@
         "id": "5311083",
         "user": "lgersman",
         "createdAt": "2013-04-04T14:56:54Z",
-        "updatedAt": "2017-07-24T12:49:20Z",
+        "updatedAt": "2017-09-21T02:03:29Z",
         "description": "improved version of my d3.js selection frame example (https://gist.github.com/lgersman/5310854) supporting draggable/selectable nodes"
       },
       {
@@ -754,7 +782,7 @@
         "id": "6052814",
         "user": "nbremer",
         "createdAt": "2013-07-22T10:16:34Z",
-        "updatedAt": "2016-06-12T08:26:35Z",
+        "updatedAt": "2017-08-17T11:45:47Z",
         "description": "Self Organizing Map - Heatmap - D3"
       },
       {
@@ -810,7 +838,7 @@
         "id": "1703449",
         "user": "christophermanning",
         "createdAt": "2012-01-30T08:59:57Z",
-        "updatedAt": "2017-07-26T06:33:47Z",
+        "updatedAt": "2017-09-09T19:55:44Z",
         "description": "Hamiltonian Graph Builder"
       },
       {
@@ -845,7 +873,7 @@
         "id": "5100636",
         "user": "mbostock",
         "createdAt": "2013-03-06T16:29:21Z",
-        "updatedAt": "2017-07-11T03:17:21Z",
+        "updatedAt": "2017-09-09T22:45:05Z",
         "description": "Arc Tween"
       },
       {
@@ -859,7 +887,7 @@
         "id": "5144735",
         "user": "mbostock",
         "createdAt": "2013-03-12T16:59:57Z",
-        "updatedAt": "2016-07-29T23:40:47Z",
+        "updatedAt": "2017-08-23T20:59:10Z",
         "description": "Kentucky Population Density"
       },
       {
@@ -887,7 +915,7 @@
         "id": "6279966",
         "user": "hugolpz",
         "createdAt": "2013-08-20T10:51:34Z",
-        "updatedAt": "2016-05-19T13:25:03Z",
+        "updatedAt": "2017-09-05T14:17:09Z",
         "description": "France_topographic_map.svg"
       },
       {
@@ -922,7 +950,7 @@
         "id": "4060366",
         "user": "mbostock",
         "createdAt": "2012-11-12T16:37:44Z",
-        "updatedAt": "2017-02-01T17:00:47Z",
+        "updatedAt": "2017-08-18T13:34:04Z",
         "description": "Voronoi Tessellation"
       },
       {
@@ -957,7 +985,7 @@
         "id": "3884955",
         "user": "mbostock",
         "createdAt": "2012-10-13T15:16:08Z",
-        "updatedAt": "2017-07-01T20:38:13Z",
+        "updatedAt": "2017-09-17T12:25:37Z",
         "description": "Multi-Series Line Chart"
       },
       {
@@ -985,7 +1013,7 @@
         "id": "1345853",
         "user": "mbostock",
         "createdAt": "2011-11-07T19:13:54Z",
-        "updatedAt": "2017-07-21T12:17:45Z",
+        "updatedAt": "2017-09-11T17:11:48Z",
         "description": "Transform Transitions"
       },
       {
@@ -999,7 +1027,7 @@
         "id": "3019563",
         "user": "mbostock",
         "createdAt": "2012-06-29T17:45:20Z",
-        "updatedAt": "2017-07-27T18:43:12Z",
+        "updatedAt": "2017-09-18T10:26:35Z",
         "description": "Margin Convention"
       },
       {
@@ -1013,14 +1041,14 @@
         "id": "3885304",
         "user": "mbostock",
         "createdAt": "2012-10-13T16:45:02Z",
-        "updatedAt": "2017-07-12T14:51:59Z",
+        "updatedAt": "2017-08-20T09:25:10Z",
         "description": "Bar Chart"
       },
       {
         "id": "21746a9668ffdf6d8242",
         "user": "nbremer",
         "createdAt": "2015-09-29T17:01:06Z",
-        "updatedAt": "2017-08-14T01:44:30Z",
+        "updatedAt": "2017-08-28T21:02:05Z",
         "description": "Radar Chart Redesign"
       },
       {
@@ -1090,7 +1118,7 @@
         "id": "6863459",
         "user": "cjrd",
         "createdAt": "2013-10-07T06:46:22Z",
-        "updatedAt": "2017-06-01T03:02:10Z",
+        "updatedAt": "2017-08-21T13:11:04Z",
         "description": "Interactive tool for creating directed graphs using d3.js."
       },
       {
@@ -1202,7 +1230,7 @@
         "id": "766f8f6d31f645c39f488a0befa1e3c8",
         "user": "kerryrodden",
         "createdAt": "2017-01-17T03:32:45Z",
-        "updatedAt": "2017-07-19T22:44:34Z",
+        "updatedAt": "2017-09-21T21:59:26Z",
         "description": "Sequences sunburst (d3 v4)"
       },
       {
@@ -1279,7 +1307,7 @@
         "id": "6476579",
         "user": "Caged",
         "createdAt": "2013-09-07T15:31:31Z",
-        "updatedAt": "2017-05-09T20:35:44Z",
+        "updatedAt": "2017-09-14T04:52:24Z",
         "description": "Using d3-tip to add tooltips to a d3 bar chart"
       },
       {
@@ -1288,13 +1316,6 @@
         "createdAt": null,
         "updatedAt": null,
         "description": null
-      },
-      {
-        "id": "3680999",
-        "user": "mbostock",
-        "createdAt": "2012-09-08T23:26:45Z",
-        "updatedAt": "2017-05-03T16:01:06Z",
-        "description": "SVG Geometric Zooming"
       },
       {
         "id": "7319558",
@@ -1314,7 +1335,7 @@
         "id": "3750558",
         "user": "mbostock",
         "createdAt": "2012-09-19T16:18:14Z",
-        "updatedAt": "2017-05-24T14:43:56Z",
+        "updatedAt": "2017-08-15T15:39:18Z",
         "description": "Sticky Force Layout"
       },
       {
@@ -1335,7 +1356,7 @@
         "id": "5001347",
         "user": "rkirsling",
         "createdAt": "2013-02-21T02:03:48Z",
-        "updatedAt": "2017-07-16T22:29:34Z",
+        "updatedAt": "2017-08-29T04:00:56Z",
         "description": "Directed Graph Editor"
       },
       {
@@ -1391,7 +1412,7 @@
         "id": "1093025",
         "user": "mbostock",
         "createdAt": "2011-07-19T16:47:24Z",
-        "updatedAt": "2017-04-17T19:55:04Z",
+        "updatedAt": "2017-08-25T16:13:58Z",
         "description": "Collapsible Indented Tree"
       },
       {
@@ -1475,7 +1496,7 @@
         "id": "4063570",
         "user": "mbostock",
         "createdAt": "2012-11-13T02:20:49Z",
-        "updatedAt": "2017-05-24T00:12:32Z",
+        "updatedAt": "2017-09-13T19:21:48Z",
         "description": "Cluster Dendrogram"
       },
       {
@@ -1566,7 +1587,7 @@
         "id": "3213173",
         "user": "mbostock",
         "createdAt": "2012-07-31T03:08:20Z",
-        "updatedAt": "2016-06-02T19:07:51Z",
+        "updatedAt": "2017-08-17T12:08:27Z",
         "description": "Scatterplot Matrix"
       },
       {
@@ -1713,7 +1734,7 @@
         "id": "8955159",
         "user": "nitaku",
         "createdAt": "2014-02-12T12:59:25Z",
-        "updatedAt": "2015-08-29T13:56:17Z",
+        "updatedAt": "2017-09-18T02:14:50Z",
         "description": "Stability of Peano curve"
       },
       {
@@ -1909,7 +1930,7 @@
         "id": "9239214",
         "user": "bollwyvl",
         "createdAt": "2014-02-26T21:40:43Z",
-        "updatedAt": "2017-05-12T06:21:13Z",
+        "updatedAt": "2017-09-19T11:02:51Z",
         "description": "d3 fishbone"
       },
       {
@@ -1993,14 +2014,14 @@
         "id": "3886208",
         "user": "mbostock",
         "createdAt": "2012-10-13T21:33:41Z",
-        "updatedAt": "2017-07-10T20:42:13Z",
+        "updatedAt": "2017-08-30T08:59:35Z",
         "description": "Stacked Bar Chart"
       },
       {
         "id": "950642",
         "user": "mbostock",
         "createdAt": "2011-05-01T16:57:18Z",
-        "updatedAt": "2017-02-06T23:12:42Z",
+        "updatedAt": "2017-09-18T11:47:54Z",
         "description": "Labeled Force Layout"
       },
       {
@@ -2133,7 +2154,7 @@
         "id": "9852362",
         "user": "phil-pedruco",
         "createdAt": "2014-03-29T10:57:12Z",
-        "updatedAt": "2016-01-05T11:04:10Z",
+        "updatedAt": "2017-09-10T21:56:48Z",
         "description": "3D Scatter Plot Using three.js"
       },
       {
@@ -2147,7 +2168,7 @@
         "id": "4444770",
         "user": "jczaplew",
         "createdAt": "2013-01-03T16:36:10Z",
-        "updatedAt": "2017-01-27T15:24:54Z",
+        "updatedAt": "2017-09-14T23:21:04Z",
         "description": "Responsive TopoJSON Sizing with d3.js"
       },
       {
@@ -2322,7 +2343,7 @@
         "id": "7e8e57368175a1433791",
         "user": "Sumbera",
         "createdAt": "2015-08-13T23:23:56Z",
-        "updatedAt": "2017-01-06T22:15:48Z",
+        "updatedAt": "2017-09-15T01:49:27Z",
         "description": "SVG scaled overlay in Leaflet "
       },
       {
@@ -2376,10 +2397,10 @@
       },
       {
         "id": "5806106",
-        "user": null,
-        "createdAt": null,
-        "updatedAt": null,
-        "description": null
+        "user": "PMeinshausen",
+        "createdAt": "2013-06-18T15:01:50Z",
+        "updatedAt": "2015-12-18T15:39:23Z",
+        "description": "Zoomable Treemap of the Chicago Data Portal\r\n"
       },
       {
         "id": "ce9c2deb92042df13179",
@@ -2448,7 +2469,7 @@
         "id": "1353700",
         "user": "mbostock",
         "createdAt": "2011-11-10T00:39:13Z",
-        "updatedAt": "2017-08-08T07:22:24Z",
+        "updatedAt": "2017-09-11T16:21:00Z",
         "description": "Epicyclic Gearing"
       },
       {
@@ -2686,7 +2707,7 @@
         "id": "134ed87c99257e3f2e31",
         "user": "curran",
         "createdAt": "2015-05-14T17:15:20Z",
-        "updatedAt": "2015-08-29T14:21:13Z",
+        "updatedAt": "2017-09-19T22:47:21Z",
         "description": "Standalone Scatter Plot"
       },
       {
@@ -2763,7 +2784,7 @@
         "id": "3902569",
         "user": "mbostock",
         "createdAt": "2012-10-16T22:47:58Z",
-        "updatedAt": "2017-05-11T19:37:00Z",
+        "updatedAt": "2017-09-17T12:25:22Z",
         "description": "X-Value Mouseover"
       },
       {
@@ -2805,7 +2826,7 @@
         "id": "7030f35b72de721622b8",
         "user": "d3noob",
         "createdAt": "2014-06-21T19:25:44Z",
-        "updatedAt": "2017-05-11T20:19:38Z",
+        "updatedAt": "2017-08-28T01:22:06Z",
         "description": "Update d3.js data with button press"
       },
       {
@@ -3022,7 +3043,7 @@
         "id": "4053096",
         "user": "syntagmatic",
         "createdAt": "2012-11-11T00:11:56Z",
-        "updatedAt": "2017-04-17T05:21:56Z",
+        "updatedAt": "2017-08-30T03:43:42Z",
         "description": "Average Price Histories II"
       },
       {
@@ -3785,7 +3806,7 @@
         "id": "7880033",
         "user": "robschmuecker",
         "createdAt": "2013-12-09T20:16:32Z",
-        "updatedAt": "2017-08-03T10:02:56Z",
+        "updatedAt": "2017-09-19T03:37:10Z",
         "description": "D3.js Drag and Drop, Zoomable, Panning, Collapsible Tree with auto-sizing."
       },
       {
@@ -3820,7 +3841,7 @@
         "id": "5348789",
         "user": "mbostock",
         "createdAt": "2013-04-09T19:49:58Z",
-        "updatedAt": "2016-02-09T02:06:57Z",
+        "updatedAt": "2017-09-03T11:18:26Z",
         "description": "Concurrent Transitions"
       },
       {
@@ -3911,7 +3932,7 @@
         "id": "6506614",
         "user": "nbremer",
         "createdAt": "2013-09-10T08:37:31Z",
-        "updatedAt": "2017-07-07T08:26:03Z",
+        "updatedAt": "2017-09-07T05:05:34Z",
         "description": "D3.js - Radar Chart or Spider Chart - Adjusted from radar-chart-d3"
       },
       {
@@ -4009,7 +4030,7 @@
         "id": "f9dacd23eece9d23669c",
         "user": "nbremer",
         "createdAt": "2015-06-28T09:55:09Z",
-        "updatedAt": "2016-11-07T07:44:09Z",
+        "updatedAt": "2017-09-04T10:12:23Z",
         "description": "Stretched Chord Diagram - From educations to occupations"
       },
       {
@@ -4534,7 +4555,7 @@
         "id": "1377729",
         "user": "MoritzStefaner",
         "createdAt": "2011-11-18T20:55:49Z",
-        "updatedAt": "2016-10-18T08:58:09Z",
+        "updatedAt": "2017-08-25T23:51:55Z",
         "description": "Force-based label placement"
       },
       {
@@ -4611,7 +4632,7 @@
         "id": "298e07ea67a640b5d9f4",
         "user": "emeeks",
         "createdAt": "2014-12-21T18:48:36Z",
-        "updatedAt": "2016-07-19T15:21:33Z",
+        "updatedAt": "2017-08-24T15:56:24Z",
         "description": "Orbit Layout 4"
       },
       {
@@ -4723,7 +4744,7 @@
         "id": "7555321",
         "user": "mbostock",
         "createdAt": "2013-11-20T00:37:49Z",
-        "updatedAt": "2017-07-29T10:58:43Z",
+        "updatedAt": "2017-08-15T20:00:49Z",
         "description": "Wrapping Long Labels"
       },
       {
@@ -4884,7 +4905,7 @@
         "id": "4342190",
         "user": "mbostock",
         "createdAt": "2012-12-20T01:06:50Z",
-        "updatedAt": "2017-07-28T13:14:11Z",
+        "updatedAt": "2017-08-30T00:57:25Z",
         "description": "Spline Editor"
       },
       {
@@ -5115,7 +5136,7 @@
         "id": "8f96bf393b94caff688b",
         "user": "nitaku",
         "createdAt": "2015-06-17T20:19:57Z",
-        "updatedAt": "2015-10-15T19:17:28Z",
+        "updatedAt": "2017-09-12T23:27:56Z",
         "description": "Isometric projection"
       },
       {
@@ -5129,7 +5150,7 @@
         "id": "6210bd80bdd20181e1f4",
         "user": "nitaku",
         "createdAt": "2015-06-20T10:06:44Z",
-        "updatedAt": "2015-08-29T14:23:23Z",
+        "updatedAt": "2017-08-16T21:04:44Z",
         "description": "Isometric word cloud"
       },
       {
@@ -5535,7 +5556,7 @@
         "id": "671c0e7adfb1ce7060b8",
         "user": "emeeks",
         "createdAt": "2015-09-22T22:09:12Z",
-        "updatedAt": "2016-03-16T15:46:02Z",
+        "updatedAt": "2017-09-14T19:01:25Z",
         "description": "Simple Correlation Matrix"
       },
       {
@@ -5731,14 +5752,14 @@
         "id": "4063318",
         "user": "mbostock",
         "createdAt": "2012-11-13T01:33:21Z",
-        "updatedAt": "2017-08-08T14:22:58Z",
+        "updatedAt": "2017-08-26T07:04:41Z",
         "description": "Calendar View"
       },
       {
         "id": "2565344",
         "user": "mbostock",
         "createdAt": "2012-05-01T05:30:52Z",
-        "updatedAt": "2017-02-19T04:28:35Z",
+        "updatedAt": "2017-08-27T21:09:15Z",
         "description": "Text Along a Path"
       },
       {
@@ -6130,7 +6151,7 @@
         "id": "3757119",
         "user": "mbostock",
         "createdAt": "2012-09-20T17:11:29Z",
-        "updatedAt": "2016-12-12T17:35:49Z",
+        "updatedAt": "2017-09-18T04:47:37Z",
         "description": "Equirectangular (Plate Carrée)"
       },
       {
@@ -6249,7 +6270,7 @@
         "id": "21f99959d48dd0d0c746",
         "user": "emeeks",
         "createdAt": "2015-11-21T01:10:09Z",
-        "updatedAt": "2017-06-04T18:00:58Z",
+        "updatedAt": "2017-09-10T01:49:53Z",
         "description": "Sankey Particles"
       },
       {
@@ -6655,7 +6676,7 @@
         "id": "1093130",
         "user": "mbostock",
         "createdAt": "2011-07-19T17:18:14Z",
-        "updatedAt": "2016-02-09T00:20:30Z",
+        "updatedAt": "2017-08-30T02:52:53Z",
         "description": "Collapsible Force Layout"
       },
       {
@@ -6788,7 +6809,7 @@
         "id": "5558084",
         "user": "tjdecke",
         "createdAt": "2013-05-10T23:01:58Z",
-        "updatedAt": "2017-08-09T15:18:42Z",
+        "updatedAt": "2017-08-22T05:56:57Z",
         "description": "Day / Hour Heatmap"
       },
       {
@@ -7040,7 +7061,7 @@
         "id": "4b66c0d9be9a0d56484e",
         "user": "mbostock",
         "createdAt": "2016-01-12T17:44:15Z",
-        "updatedAt": "2017-05-07T20:17:54Z",
+        "updatedAt": "2017-08-28T14:44:17Z",
         "description": "Inline Labels"
       },
       {
@@ -7164,10 +7185,10 @@
       },
       {
         "id": "2de0e25d4840c68f2db1",
-        "user": null,
-        "createdAt": null,
-        "updatedAt": null,
-        "description": null
+        "user": "bbest",
+        "createdAt": "2014-09-05T23:24:46Z",
+        "updatedAt": "2017-03-09T16:18:30Z",
+        "description": "Aster Plot in D3"
       },
       {
         "id": "295c8c90e6648cccd2d6",
@@ -7180,7 +7201,7 @@
         "id": "3231298",
         "user": "mbostock",
         "createdAt": "2012-08-01T22:33:52Z",
-        "updatedAt": "2017-08-12T02:13:13Z",
+        "updatedAt": "2017-08-25T07:25:03Z",
         "description": "Collision Detection"
       },
       {
@@ -7194,7 +7215,7 @@
         "id": "33a9e350516da54a5d4f",
         "user": "rkirsling",
         "createdAt": "2014-10-25T02:24:28Z",
-        "updatedAt": "2017-08-08T12:55:59Z",
+        "updatedAt": "2017-08-23T09:37:24Z",
         "description": "Trend Chart (Area + Line)"
       },
       {
@@ -7264,7 +7285,7 @@
         "id": "5f168b5c884b1f9c36a5",
         "user": "KatiRG",
         "createdAt": "2016-01-25T16:30:54Z",
-        "updatedAt": "2017-05-01T04:24:40Z",
+        "updatedAt": "2017-09-06T14:46:30Z",
         "description": "d3js clickable stacked bar chart"
       },
       {
@@ -7971,7 +7992,7 @@
         "id": "10586116",
         "user": "eyaler",
         "createdAt": "2014-04-13T14:21:19Z",
-        "updatedAt": "2017-08-03T13:23:40Z",
+        "updatedAt": "2017-08-31T08:59:09Z",
         "description": "Force-Directed Graph with Drag/Zoom/Pan/Center/Resize/Labels/Shapes/Filter/Highlight"
       },
       {
@@ -7992,7 +8013,7 @@
         "id": "5e5ce9beee483220e2f6",
         "user": "brattonc",
         "createdAt": "2015-03-09T15:52:44Z",
-        "updatedAt": "2017-07-19T05:26:55Z",
+        "updatedAt": "2017-09-21T17:34:20Z",
         "description": "D3 Liquid Fill Gauge"
       },
       {
@@ -8860,7 +8881,7 @@
         "id": "a08a1080b88344b0c8a7",
         "user": "curran",
         "createdAt": "2015-11-21T02:46:06Z",
-        "updatedAt": "2017-08-07T13:48:35Z",
+        "updatedAt": "2017-08-31T11:30:45Z",
         "description": "The Iris Dataset"
       },
       {
@@ -10176,7 +10197,7 @@
         "id": "3885211",
         "user": "mbostock",
         "createdAt": "2012-10-13T16:21:54Z",
-        "updatedAt": "2017-05-16T15:43:50Z",
+        "updatedAt": "2017-08-31T11:55:00Z",
         "description": "Stacked Area Chart"
       },
       {
@@ -11454,13 +11475,6 @@
         "description": "Stacked Radial Area"
       },
       {
-        "id": "3680957",
-        "user": "mbostock",
-        "createdAt": "2012-09-08T23:22:52Z",
-        "updatedAt": "2017-06-29T15:35:23Z",
-        "description": "SVG Semantic Zooming"
-      },
-      {
         "id": "12f6d6a5e0dfafa925d5",
         "user": null,
         "createdAt": null,
@@ -12171,7 +12185,7 @@
         "id": "c9b90689c1438f57d649",
         "user": "d3noob",
         "createdAt": "2014-06-25T21:21:16Z",
-        "updatedAt": "2017-08-06T22:51:54Z",
+        "updatedAt": "2017-08-21T22:09:50Z",
         "description": "Sankey from csv with d3.js"
       },
       {
@@ -12668,7 +12682,7 @@
         "id": "7c3c41f1524dcf2caea54290cceddf0a",
         "user": "Fil",
         "createdAt": "2016-09-18T14:12:58Z",
-        "updatedAt": "2016-09-21T15:34:03Z",
+        "updatedAt": "2017-09-03T19:56:52Z",
         "description": "Voronoi binning"
       },
       {
@@ -12801,7 +12815,7 @@
         "id": "425346f63abddee5fea3fdcb76904820",
         "user": "Fil",
         "createdAt": "2016-10-11T20:53:12Z",
-        "updatedAt": "2016-10-11T21:09:13Z",
+        "updatedAt": "2017-08-21T04:03:01Z",
         "description": "Multi-Line Voronoi using Voronoi.find()"
       },
       {
@@ -13179,7 +13193,7 @@
         "id": "1642874",
         "user": "mbostock",
         "createdAt": "2012-01-19T21:33:21Z",
-        "updatedAt": "2017-08-14T05:57:52Z",
+        "updatedAt": "2017-09-22T01:45:32Z",
         "description": "Line Transition"
       },
       {
@@ -14026,7 +14040,7 @@
         "id": "5a31486cea3f246c2e7dfd56937aeee0",
         "user": "NPashaP",
         "createdAt": "2016-06-24T02:19:26Z",
-        "updatedAt": "2016-08-07T23:23:02Z",
+        "updatedAt": "2017-09-08T14:14:23Z",
         "description": "biPartite - Horizontal Example"
       },
       {
@@ -14208,7 +14222,7 @@
         "id": "326fb6de768e85261bfd47aa1f497863",
         "user": "nbremer",
         "createdAt": "2016-08-19T11:40:10Z",
-        "updatedAt": "2016-08-25T18:10:49Z",
+        "updatedAt": "2017-08-24T00:36:16Z",
         "description": "Brushable Horizontal Bar Chart - IV"
       },
       {
@@ -14257,7 +14271,7 @@
         "id": "4e3925cdc804db257a86fdef3a032a45",
         "user": "mbostock",
         "createdAt": "2016-05-26T17:14:46Z",
-        "updatedAt": "2016-12-22T22:21:05Z",
+        "updatedAt": "2017-09-21T09:18:35Z",
         "description": "Pan & Zoom III"
       },
       {
@@ -14873,7 +14887,7 @@
         "id": "9306799",
         "user": "dbuezas",
         "createdAt": "2014-03-02T13:47:41Z",
-        "updatedAt": "2017-02-13T11:45:44Z",
+        "updatedAt": "2017-08-25T15:45:13Z",
         "description": "Pie charts labels"
       },
       {
@@ -14922,7 +14936,7 @@
         "id": "5629688",
         "user": "calvinmetcalf",
         "createdAt": "2013-05-22T18:17:20Z",
-        "updatedAt": "2017-01-15T17:22:45Z",
+        "updatedAt": "2017-08-28T05:16:22Z",
         "description": "Reprojected Raster Tiles"
       },
       {
@@ -15034,7 +15048,7 @@
         "id": "978513bc74d0b32d3795",
         "user": "tophtucker",
         "createdAt": "2015-11-28T06:29:49Z",
-        "updatedAt": "2017-08-01T13:52:26Z",
+        "updatedAt": "2017-08-21T03:33:09Z",
         "description": "Beginning to reverse-engineer FizzyText"
       },
       {
@@ -15230,7 +15244,7 @@
         "id": "5928813",
         "user": "mbostock",
         "createdAt": "2013-07-04T16:00:25Z",
-        "updatedAt": "2017-08-13T01:19:21Z",
+        "updatedAt": "2017-08-17T13:54:14Z",
         "description": "Great Arc"
       },
       {
@@ -15867,7 +15881,7 @@
         "id": "402dd382a51a4f6eea487f9a35566de0",
         "user": "d3noob",
         "createdAt": "2016-07-01T01:35:42Z",
-        "updatedAt": "2017-08-13T20:14:35Z",
+        "updatedAt": "2017-09-18T06:16:55Z",
         "description": "Simple line graph with v4"
       },
       {
@@ -16063,7 +16077,7 @@
         "id": "477c1bfb081b783f80ad",
         "user": "kerryrodden",
         "createdAt": "2014-07-15T18:09:47Z",
-        "updatedAt": "2017-08-12T14:28:34Z",
+        "updatedAt": "2017-09-14T10:08:14Z",
         "description": "Zoomable sunburst with updating data"
       },
       {
@@ -16119,7 +16133,7 @@
         "id": "e6209de87cdddde38dadbb746feaf3a3",
         "user": "shimizu",
         "createdAt": "2016-07-15T08:02:20Z",
-        "updatedAt": "2016-12-03T03:27:26Z",
+        "updatedAt": "2017-09-08T05:38:33Z",
         "description": "D3 v4 - force layout"
       },
       {
@@ -16168,7 +16182,7 @@
         "id": "b783fbb2e673561d214e09c7fb5cedee",
         "user": "mbostock",
         "createdAt": "2016-05-18T22:02:25Z",
-        "updatedAt": "2016-07-04T13:29:49Z",
+        "updatedAt": "2017-08-23T03:17:50Z",
         "description": "Zoom Transitions"
       },
       {
@@ -16280,7 +16294,7 @@
         "id": "bdf28027e0ce70bd132edc64f1dd7ea4",
         "user": "d3noob",
         "createdAt": "2016-07-20T17:33:43Z",
-        "updatedAt": "2017-05-09T17:58:19Z",
+        "updatedAt": "2017-09-14T05:07:52Z",
         "description": "Simple bar graph in v4"
       },
       {
@@ -16791,7 +16805,7 @@
         "id": "2990a882e007f8384b04827617752738",
         "user": "mbostock",
         "createdAt": "2016-05-11T18:22:03Z",
-        "updatedAt": "2016-07-04T13:11:19Z",
+        "updatedAt": "2017-09-21T11:37:17Z",
         "description": "Force Dragging II"
       },
       {
@@ -17323,7 +17337,7 @@
         "id": "8ab9dc27f144683bc015eb4a2639d234",
         "user": "syntagmatic",
         "createdAt": "2016-05-14T08:02:53Z",
-        "updatedAt": "2016-05-17T06:37:20Z",
+        "updatedAt": "2017-09-02T04:31:25Z",
         "description": "Bump Plot"
       },
       {
@@ -18443,7 +18457,7 @@
         "id": "8e15870eb432a21f0bc4d3d527b2d14f",
         "user": "micahstubbs",
         "createdAt": "2016-09-22T20:42:30Z",
-        "updatedAt": "2017-01-19T03:46:13Z",
+        "updatedAt": "2017-09-03T20:14:43Z",
         "description": "world map 02 update to d3 v4"
       },
       {
@@ -18618,7 +18632,7 @@
         "id": "8637581",
         "user": "fernoftheandes",
         "createdAt": "2014-01-26T19:02:56Z",
-        "updatedAt": "2016-06-13T13:10:28Z",
+        "updatedAt": "2017-08-25T17:47:49Z",
         "description": "Encircling D3's Fisheye Distortion"
       },
       {
@@ -18835,7 +18849,7 @@
         "id": "1044242",
         "user": "mbostock",
         "createdAt": "2011-06-24T04:44:55Z",
-        "updatedAt": "2017-05-26T02:03:19Z",
+        "updatedAt": "2017-09-19T06:20:20Z",
         "description": "Hierarchical Edge Bundling"
       },
       {
@@ -20214,7 +20228,7 @@
         "id": "963d6d0323dcbd3bf62f67f738bc394e",
         "user": "theredpea",
         "createdAt": "2016-08-27T20:58:34Z",
-        "updatedAt": "2016-08-27T22:02:11Z",
+        "updatedAt": "2017-09-12T14:49:29Z",
         "description": "nate central limit theorem demo"
       },
       {
@@ -20422,10 +20436,10 @@
       },
       {
         "id": "5de7fd6b94be178f8727",
-        "user": null,
-        "createdAt": null,
-        "updatedAt": null,
-        "description": null
+        "user": "jrbalsano",
+        "createdAt": "2016-03-22T17:52:58Z",
+        "updatedAt": "2016-05-12T13:43:24Z",
+        "description": "D3 Scatterplot Rendering - 2"
       },
       {
         "id": "02e58a22e0f4f3f70cdadcc953cf16d3",
@@ -20447,13 +20461,6 @@
         "createdAt": "2014-04-13T21:43:57Z",
         "updatedAt": "2016-01-08T17:38:07Z",
         "description": "Force-Directed Scatterplot"
-      },
-      {
-        "id": "7a02e811360ff00c4eef",
-        "user": null,
-        "createdAt": null,
-        "updatedAt": null,
-        "description": null
       },
       {
         "id": "6e6cef56bd49710ca99ccfde33f4b33c,",
@@ -20550,7 +20557,7 @@
         "id": "2e655fdd1f378cb2002435fe33d7d6ec",
         "user": "vasturiano",
         "createdAt": "2017-02-27T06:40:14Z",
-        "updatedAt": "2017-07-05T00:01:21Z",
+        "updatedAt": "2017-09-19T07:25:30Z",
         "description": "3D Internet Topology"
       },
       {
@@ -22209,7 +22216,7 @@
         "id": "7608400",
         "user": "mbostock",
         "createdAt": "2013-11-22T23:05:16Z",
-        "updatedAt": "2017-05-21T06:38:39Z",
+        "updatedAt": "2017-09-14T17:20:42Z",
         "description": "Voronoi Arc Map"
       },
       {
@@ -24848,7 +24855,7 @@
         "id": "cd0c38a20141e997e926592264067db3",
         "user": "ericsoco",
         "createdAt": "2016-10-16T20:28:32Z",
-        "updatedAt": "2017-04-16T23:36:23Z",
+        "updatedAt": "2017-09-21T11:37:48Z",
         "description": "cluster force"
       },
       {
@@ -24904,7 +24911,7 @@
         "id": "3011520bbc4252e5fdae",
         "user": "emepyc",
         "createdAt": "2015-12-22T16:38:51Z",
-        "updatedAt": "2016-01-12T16:35:11Z",
+        "updatedAt": "2017-08-25T06:30:33Z",
         "description": "Collapsible nodes"
       },
       {
@@ -25128,7 +25135,7 @@
         "id": "cfb7dcd7951826b9eacd54f0647f48d3",
         "user": "alandunning",
         "createdAt": "2016-09-22T21:41:43Z",
-        "updatedAt": "2016-10-19T15:14:58Z",
+        "updatedAt": "2017-09-15T01:15:15Z",
         "description": "Line Chart with Circle Tooltip D3 V4"
       },
       {
@@ -25548,7 +25555,7 @@
         "id": "8a5b1cc987217607a47bd7d4e0fffacb",
         "user": "carlvlewis",
         "createdAt": "2017-02-23T03:29:11Z",
-        "updatedAt": "2017-05-29T06:43:47Z",
+        "updatedAt": "2017-08-31T04:04:43Z",
         "description": "A single d3.js V4 chart with 'small multiples' along single categorical x-axis"
       },
       {
@@ -26059,7 +26066,7 @@
         "id": "7ea1dde508cec6d2d95306f92642bc42",
         "user": "mbostock",
         "createdAt": "2017-01-18T22:46:58Z",
-        "updatedAt": "2017-06-23T22:10:39Z",
+        "updatedAt": "2017-08-31T01:08:01Z",
         "description": "Versor Dragging"
       },
       {
@@ -26360,7 +26367,7 @@
         "id": "8c3e2524079a8c440df60c1ab72b5d03",
         "user": "steveharoz",
         "createdAt": "2016-10-02T14:55:48Z",
-        "updatedAt": "2017-05-14T21:08:07Z",
+        "updatedAt": "2017-09-21T11:37:55Z",
         "description": "d3-force testing ground"
       },
       {
@@ -26948,7 +26955,7 @@
         "id": "013054e8d7807dff76247b81b0e29030",
         "user": "d3noob",
         "createdAt": "2016-09-05T06:17:24Z",
-        "updatedAt": "2017-08-03T18:01:23Z",
+        "updatedAt": "2017-08-18T12:06:09Z",
         "description": "Sankey Diagram with v4"
       },
       {
@@ -27151,7 +27158,7 @@
         "id": "976b2e854965eea17a7754517043b91f",
         "user": "Kcnarf",
         "createdAt": "2017-01-23T14:54:36Z",
-        "updatedAt": "2017-04-12T12:16:26Z",
+        "updatedAt": "2017-09-20T09:59:48Z",
         "description": "Distorded Treemap - d3-shaped treemap"
       },
       {
@@ -28362,7 +28369,7 @@
         "id": "4ec83d8edb8d5add7c9e",
         "user": "GitNoise",
         "createdAt": "2016-01-12T20:43:17Z",
-        "updatedAt": "2016-06-21T12:35:39Z",
+        "updatedAt": "2017-09-21T06:09:21Z",
         "description": "Timeline with 2 streams and events"
       },
       {
@@ -28705,7 +28712,7 @@
         "id": "e1cdbbe586ac31747b4a304f8f86efa5",
         "user": "denjn5",
         "createdAt": "2017-04-19T03:54:59Z",
-        "updatedAt": "2017-08-11T11:43:47Z",
+        "updatedAt": "2017-08-23T18:57:35Z",
         "description": "Sunburst Tutorial (d3 v4), Part 1"
       },
       {
@@ -29216,7 +29223,7 @@
         "id": "b5935342c6d21928111928401e2c8608",
         "user": "mbostock",
         "createdAt": "2017-03-07T06:06:50Z",
-        "updatedAt": "2017-05-15T19:34:53Z",
+        "updatedAt": "2017-08-28T23:56:11Z",
         "description": "Stacked Negative Values"
       },
       {
@@ -29244,7 +29251,7 @@
         "id": "431a331294d2b5ddd33f947cf4c81319",
         "user": "mbostock",
         "createdAt": "2016-09-12T17:58:52Z",
-        "updatedAt": "2017-08-09T08:35:51Z",
+        "updatedAt": "2017-09-15T13:11:21Z",
         "description": "Zoom to Domain"
       },
       {
@@ -29363,7 +29370,7 @@
         "id": "7a2cd2e02367c7ac2643cd2198706e50",
         "user": "micahstubbs",
         "createdAt": "2017-02-21T00:46:04Z",
-        "updatedAt": "2017-02-21T00:49:36Z",
+        "updatedAt": "2017-08-18T11:38:56Z",
         "description": "es2015 clicky label"
       },
       {
@@ -29706,7 +29713,7 @@
         "id": "02affe306ce445e423f992faeea13521",
         "user": "vasturiano",
         "createdAt": "2017-02-24T23:38:51Z",
-        "updatedAt": "2017-07-04T22:47:19Z",
+        "updatedAt": "2017-09-19T05:57:22Z",
         "description": "3D Force-Directed Graph (ThreeJS)"
       },
       {
@@ -30147,7 +30154,7 @@
         "id": "48ad757db4c4be5fee5cf046df0d94bc",
         "user": "almccon",
         "createdAt": "2016-11-03T22:09:47Z",
-        "updatedAt": "2016-11-03T22:13:57Z",
+        "updatedAt": "2017-09-10T22:29:09Z",
         "description": "Leaflet starter (Toner basemap)"
       },
       {
@@ -30371,7 +30378,7 @@
         "id": "87fbdfc4533df2ffa02b5bb62bfb5cb6",
         "user": "mbostock",
         "createdAt": "2016-04-15T19:17:38Z",
-        "updatedAt": "2017-01-19T04:56:52Z",
+        "updatedAt": "2017-09-06T03:49:36Z",
         "description": "Animated Quadtree"
       },
       {
@@ -31470,7 +31477,7 @@
         "id": "34a4e0330eb374b4e24e19cfe58a8669",
         "user": "mbostock",
         "createdAt": "2017-03-24T21:56:33Z",
-        "updatedAt": "2017-04-05T12:47:48Z",
+        "updatedAt": "2017-08-28T21:13:39Z",
         "description": "Hello"
       },
       {
@@ -31568,7 +31575,7 @@
         "id": "8323795",
         "user": "d3noob",
         "createdAt": "2014-01-08T20:15:11Z",
-        "updatedAt": "2017-08-10T17:28:19Z",
+        "updatedAt": "2017-08-30T00:06:56Z",
         "description": "Simple d3.js tree diagram"
       },
       {
@@ -32184,7 +32191,7 @@
         "id": "8070956",
         "user": "XavierGimenez",
         "createdAt": "2013-12-21T15:41:02Z",
-        "updatedAt": "2017-04-04T20:51:13Z",
+        "updatedAt": "2017-08-31T17:01:17Z",
         "description": "Waffle Chart"
       },
       {
@@ -32716,7 +32723,7 @@
         "id": "8329447",
         "user": "d3noob",
         "createdAt": "2014-01-09T04:34:08Z",
-        "updatedAt": "2017-08-07T18:54:21Z",
+        "updatedAt": "2017-09-14T12:37:45Z",
         "description": "D3.js tree diagram generated from external (JSON) data"
       },
       {
@@ -33395,7 +33402,7 @@
         "id": "a8f39c8a96b71735488bf280d34bd765",
         "user": "1wheel",
         "createdAt": "2017-07-06T17:49:03Z",
-        "updatedAt": "2017-07-06T18:00:20Z",
+        "updatedAt": "2017-09-03T18:36:26Z",
         "description": "stroke-pattern-fill"
       },
       {
@@ -33883,10 +33890,10 @@
       },
       {
         "id": "c3f44d6663676c19d5585da67914be73",
-        "user": null,
-        "createdAt": null,
-        "updatedAt": null,
-        "description": null
+        "user": "mayblue9",
+        "createdAt": "2016-08-02T02:25:45Z",
+        "updatedAt": "2016-08-02T02:25:45Z",
+        "description": "Adding Day Filter to Crossfilter Example"
       },
       {
         "id": "d42ff3d7ec991677c3e12e6a84347b70",
@@ -33955,7 +33962,7 @@
         "id": "aba1a8d1a484f5c5f294eebd353842da",
         "user": "mbostock",
         "createdAt": "2017-05-09T14:09:57Z",
-        "updatedAt": "2017-05-25T23:55:11Z",
+        "updatedAt": "2017-08-30T01:09:47Z",
         "description": "Adjustable Link Strength"
       },
       {
@@ -34004,8 +34011,8 @@
         "id": "c36ed66a4d50d77150712c80642a78d5",
         "user": "Fil",
         "createdAt": "2017-07-25T05:22:28Z",
-        "updatedAt": "2017-08-08T10:38:53Z",
-        "description": "Lee’s Tetrahedric Conformal Projection"
+        "updatedAt": "2017-08-27T20:11:52Z",
+        "description": "Lee’s Tetrahedral Conformal Projection"
       },
       {
         "id": "e73fe827dc3f11960e95db5b0f212e0a",
@@ -34032,7 +34039,7 @@
         "id": "cb7930254c9e7062114678d62d9be5ac",
         "user": "Fil",
         "createdAt": "2017-07-23T16:29:00Z",
-        "updatedAt": "2017-08-06T07:48:13Z",
+        "updatedAt": "2017-08-27T20:13:51Z",
         "description": "Furuti cubic projection #3"
       },
       {
@@ -34088,7 +34095,7 @@
         "id": "8783c504d2ebb736ce12bcfd1606e840",
         "user": "Fil",
         "createdAt": "2017-07-06T12:14:52Z",
-        "updatedAt": "2017-07-28T14:06:50Z",
+        "updatedAt": "2017-08-19T10:00:13Z",
         "description": "L’Équateur de Marseille"
       },
       {
@@ -34116,14 +34123,14 @@
         "id": "a7bdfeb041e850799a8d3dce4d8c50c8",
         "user": "mbostock",
         "createdAt": "2017-02-19T17:29:25Z",
-        "updatedAt": "2017-04-03T22:46:33Z",
+        "updatedAt": "2017-08-28T21:13:09Z",
         "description": "Winding Order"
       },
       {
         "id": "6d9de24b31cb870fed2e6178a120b17d",
         "user": "Fil",
         "createdAt": "2017-01-16T14:58:29Z",
-        "updatedAt": "2017-01-16T16:46:08Z",
+        "updatedAt": "2017-08-17T12:07:42Z",
         "description": "Scatterplot Matrix Brushing d3v4"
       },
       {
@@ -34179,14 +34186,14 @@
         "id": "ce9d55cc070126b66fb86bc03b84b3f4",
         "user": "Fil",
         "createdAt": "2017-05-28T06:08:13Z",
-        "updatedAt": "2017-06-14T21:28:33Z",
+        "updatedAt": "2017-08-22T22:25:58Z",
         "description": "Cox Projection (North polar aspect)"
       },
       {
         "id": "1aafd8fa22b62243290674384c364dd0",
         "user": "Fil",
         "createdAt": "2017-05-28T03:54:16Z",
-        "updatedAt": "2017-06-14T21:28:43Z",
+        "updatedAt": "2017-08-25T06:47:50Z",
         "description": "Cox Projection"
       },
       {
@@ -34263,7 +34270,7 @@
         "id": "f3aa070fd1d937f49ed1560c05220214",
         "user": "enjalot",
         "createdAt": "2017-05-02T20:31:33Z",
-        "updatedAt": "2017-05-02T23:30:37Z",
+        "updatedAt": "2017-09-12T16:32:13Z",
         "description": "HTML Color Names (Relative Lightness)"
       },
       {
@@ -34529,8 +34536,8 @@
         "id": "3c780088c363d1515403f50a87a87121",
         "user": "ColinEberhardt",
         "createdAt": "2017-04-05T12:10:10Z",
-        "updatedAt": "2017-04-06T16:41:21Z",
-        "description": "Interactive Small Multiples - Step 5"
+        "updatedAt": "2017-09-15T13:48:43Z",
+        "description": "Interactive Small Multiples"
       },
       {
         "id": "76838e064be2b5f71ac5dfd243e94578",
@@ -34543,7 +34550,7 @@
         "id": "dea5ae59475675e87d765b3a4a8dc057",
         "user": "ColinEberhardt",
         "createdAt": "2017-03-08T09:29:30Z",
-        "updatedAt": "2017-03-25T08:55:58Z",
+        "updatedAt": "2017-09-15T09:04:43Z",
         "description": "Small multiples"
       },
       {
@@ -35089,7 +35096,7 @@
         "id": "5773cdb27b5b04bcafa5f923e20f8a0c",
         "user": "tlfrd",
         "createdAt": "2017-08-01T09:16:24Z",
-        "updatedAt": "2017-08-14T13:55:04Z",
+        "updatedAt": "2017-08-16T15:58:38Z",
         "description": "Pie Chart with Image Pattern"
       },
       {
@@ -35110,8 +35117,8 @@
         "id": "e1ddc3d0289215224a69405f5e538f51",
         "user": "tlfrd",
         "createdAt": "2017-07-28T13:21:00Z",
-        "updatedAt": "2017-08-07T13:14:38Z",
-        "description": "Connected Dot Plot - Pay Ratio"
+        "updatedAt": "2017-08-25T10:18:19Z",
+        "description": "Connected Dot Plot"
       },
       {
         "id": "1984c7f2b446fffeedde",
@@ -35446,7 +35453,7 @@
         "id": "c7ae5bc065bf6e3370fa19a6a27f54bd",
         "user": "almccon",
         "createdAt": "2017-06-04T23:06:57Z",
-        "updatedAt": "2017-06-27T17:32:25Z",
+        "updatedAt": "2017-09-16T16:53:49Z",
         "description": "gooey map"
       },
       {
@@ -35782,7 +35789,7 @@
         "id": "1499279",
         "user": "tomerd",
         "createdAt": "2011-12-19T22:51:31Z",
-        "updatedAt": "2017-08-14T13:28:29Z",
+        "updatedAt": "2017-09-12T08:43:22Z",
         "description": "google style gauges using javascript d3.js"
       },
       {
@@ -36234,13 +36241,6 @@
         "description": "Rainbow Perceptual Distance"
       },
       {
-        "id": "fca58d54f94230a03a348891e866184c",
-        "user": "curran",
-        "createdAt": "2017-08-02T14:39:11Z",
-        "updatedAt": "2017-08-09T15:58:48Z",
-        "description": "Persons of Concern StreamGraph by Destination"
-      },
-      {
         "id": "2793201c7025c416c471e30d30546c6b",
         "user": "curran",
         "createdAt": "2017-07-27T12:27:31Z",
@@ -36251,8 +36251,15 @@
         "id": "05bd927371a3ccf8bf6039bf1b30e448",
         "user": "curran",
         "createdAt": "2017-07-18T13:22:49Z",
-        "updatedAt": "2017-08-03T13:39:39Z",
+        "updatedAt": "2017-09-05T17:47:39Z",
         "description": "Syrian Refugees by Settlement Type"
+      },
+      {
+        "id": "fca58d54f94230a03a348891e866184c",
+        "user": "curran",
+        "createdAt": "2017-08-02T14:39:11Z",
+        "updatedAt": "2017-08-09T15:58:48Z",
+        "description": "Persons of Concern StreamGraph by Destination"
       },
       {
         "id": "4d53741c724ad9261fe238045acd98c1",
@@ -36342,7 +36349,7 @@
         "id": "ca9a0bb7ba204d12974bca90acc507c0",
         "user": "mbostock",
         "createdAt": "2017-05-25T20:13:15Z",
-        "updatedAt": "2017-08-05T06:21:56Z",
+        "updatedAt": "2017-09-19T04:39:26Z",
         "description": "Sankey Diagram"
       },
       {
@@ -36405,7 +36412,7 @@
         "id": "455e1c7872c4b38a58b90df0c3d7b1b9",
         "user": "domoritz",
         "createdAt": "2017-04-26T19:56:49Z",
-        "updatedAt": "2017-07-04T01:10:04Z",
+        "updatedAt": "2017-09-20T00:08:38Z",
         "description": "Vega-Lite block example"
       },
       {
@@ -36489,7 +36496,7 @@
         "id": "ef8e0be0147a69bb1d2adc77c66a80b6",
         "user": "Fil",
         "createdAt": "2016-12-25T18:43:37Z",
-        "updatedAt": "2017-05-10T11:28:16Z",
+        "updatedAt": "2017-09-09T02:09:57Z",
         "description": "K-Means as a force"
       },
       {
@@ -36508,10 +36515,10 @@
       },
       {
         "id": "7988806e2d0c07537b73760e72dc2b9f",
-        "user": null,
-        "createdAt": null,
-        "updatedAt": null,
-        "description": null
+        "user": "ElaineYu",
+        "createdAt": "2017-06-29T01:43:24Z",
+        "updatedAt": "2017-07-07T23:42:00Z",
+        "description": "Metis Health & Wealth of Nations Country Comparison"
       },
       {
         "id": "bebda9266f0426b54301a604b4890e71",
@@ -37273,7 +37280,7 @@
         "id": "d94b5f8c39d634fec2944a42666604e1",
         "user": "ColinEberhardt",
         "createdAt": "2017-01-25T22:28:16Z",
-        "updatedAt": "2017-06-18T06:34:44Z",
+        "updatedAt": "2017-09-15T09:11:45Z",
         "description": "London Marathon Finish Times 2016"
       },
       {
@@ -38001,7 +38008,7 @@
         "id": "96b74d0bd6d11427dd797892551a103c",
         "user": "d3noob",
         "createdAt": "2016-07-21T09:13:08Z",
-        "updatedAt": "2017-04-19T20:24:16Z",
+        "updatedAt": "2017-09-13T03:34:31Z",
         "description": "Simple histogram using v4"
       },
       {
@@ -38484,7 +38491,7 @@
         "id": "83b99714956d55dc8022f2b685cfda57",
         "user": "NPashaP",
         "createdAt": "2016-12-16T21:10:10Z",
-        "updatedAt": "2016-12-17T00:22:27Z",
+        "updatedAt": "2017-09-12T06:30:52Z",
         "description": "US State Grid"
       },
       {
@@ -39387,7 +39394,7 @@
         "id": "bc8bb74f0505e00bfea16512cc2fca8d",
         "user": "tlfrd",
         "createdAt": "2017-07-31T10:19:01Z",
-        "updatedAt": "2017-08-07T15:20:16Z",
+        "updatedAt": "2017-08-18T14:16:53Z",
         "description": "Guess The Ratio"
       },
       {
@@ -39401,7 +39408,7 @@
         "id": "e64f7c1ae37b6f87a981f48b8aa0ff3b",
         "user": "tlfrd",
         "createdAt": "2017-08-09T15:14:31Z",
-        "updatedAt": "2017-08-10T10:00:21Z",
+        "updatedAt": "2017-08-16T09:23:27Z",
         "description": "Enclosing Force Circles"
       },
       {
@@ -39450,7 +39457,7 @@
         "id": "1f063667610f2092b78c990d8c35fb4d",
         "user": "tomshanley",
         "createdAt": "2017-08-08T00:17:39Z",
-        "updatedAt": "2017-08-08T00:22:21Z",
+        "updatedAt": "2017-08-18T11:16:49Z",
         "description": "d3.layout.timeline categorized timelines"
       },
       {
@@ -39583,7 +39590,7 @@
         "id": "83b3ff78f638d0739b13c2b0dc356ac8",
         "user": "HarryStevens",
         "createdAt": "2017-06-18T08:00:34Z",
-        "updatedAt": "2017-07-25T05:56:31Z",
+        "updatedAt": "2017-09-17T14:14:30Z",
         "description": "Radix Sort"
       },
       {
@@ -39604,7 +39611,7 @@
         "id": "de1069536e00256d7aa82299fac0f3d5",
         "user": "HarryStevens",
         "createdAt": "2017-07-23T07:39:59Z",
-        "updatedAt": "2017-07-24T06:08:06Z",
+        "updatedAt": "2017-09-20T10:20:19Z",
         "description": "Bar Update Pattern"
       },
       {
@@ -39667,7 +39674,7 @@
         "id": "14006cc042f5dff5a6e1ddf041afbae6",
         "user": "veltman",
         "createdAt": "2017-06-29T21:38:17Z",
-        "updatedAt": "2017-06-30T01:36:18Z",
+        "updatedAt": "2017-09-17T12:15:27Z",
         "description": "Streamgraph label positions"
       },
       {
@@ -39849,7 +39856,7 @@
         "id": "d724c9aadbc102e48622ee24013b0d4c",
         "user": "basilesimon",
         "createdAt": "2017-06-13T14:59:53Z",
-        "updatedAt": "2017-06-29T14:23:54Z",
+        "updatedAt": "2017-08-25T17:03:56Z",
         "description": "Small Multiples with Reusable Charts"
       },
       {
@@ -39940,7 +39947,7 @@
         "id": "ded69192b8269a78d2d97e24211e64e0",
         "user": "vasturiano",
         "createdAt": "2016-05-10T06:28:42Z",
-        "updatedAt": "2017-04-20T18:56:55Z",
+        "updatedAt": "2017-09-19T04:51:10Z",
         "description": "Timelines Chart"
       },
       {
@@ -40066,7 +40073,7 @@
         "id": "a464c24d8b42f0c4d9fafe7b48e9e60a",
         "user": "susielu",
         "createdAt": "2017-04-16T04:55:06Z",
-        "updatedAt": "2017-04-20T15:29:53Z",
+        "updatedAt": "2017-08-18T19:38:43Z",
         "description": "d3.annotation: Example Without Scales"
       },
       {
@@ -40178,7 +40185,7 @@
         "id": "9a8124ccde3a4e9625bc413b48f14b30",
         "user": "mbostock",
         "createdAt": "2017-02-15T22:48:10Z",
-        "updatedAt": "2017-04-01T18:14:48Z",
+        "updatedAt": "2017-08-28T23:35:33Z",
         "description": "Force-Directed Tree II"
       },
       {
@@ -40864,7 +40871,7 @@
         "id": "7cf9967028259ea032e8",
         "user": "curran",
         "createdAt": "2015-09-07T20:47:11Z",
-        "updatedAt": "2017-03-16T23:34:19Z",
+        "updatedAt": "2017-09-03T03:26:19Z",
         "description": "Download SVG from Data URL"
       },
       {
@@ -40955,7 +40962,7 @@
         "id": "0919114dceb85d70c24d4003aa84681d",
         "user": "mukhtyar",
         "createdAt": "2016-09-10T17:04:02Z",
-        "updatedAt": "2017-07-18T20:54:22Z",
+        "updatedAt": "2017-09-02T05:11:17Z",
         "description": "Cal-Adapt - Sea Level Rise Data (Radke et al 2016)"
       },
       {
@@ -40969,7 +40976,7 @@
         "id": "1148374",
         "user": "benjchristensen",
         "createdAt": "2011-08-16T03:21:35Z",
-        "updatedAt": "2017-05-08T09:24:25Z",
+        "updatedAt": "2017-08-25T17:55:34Z",
         "description": "Animated Line Graphs / Sparklines using SVG Path and d3.js"
       },
       {
@@ -41072,10 +41079,10 @@
       },
       {
         "id": "c36b6d9aebcceeb645ef023ef60bdb55",
-        "user": null,
-        "createdAt": null,
-        "updatedAt": null,
-        "description": null
+        "user": "ElaineYu",
+        "createdAt": "2017-06-27T02:25:23Z",
+        "updatedAt": "2017-07-12T21:42:50Z",
+        "description": "Metis Stack Chart CO2 emissions by Fuel Type and Vehicle"
       },
       {
         "id": "a1b48e37c82b17727361fb0709713888",
@@ -41305,7 +41312,7 @@
         "id": "6a31f4ef9e778d94c204",
         "user": "zross",
         "createdAt": "2014-09-25T20:21:26Z",
-        "updatedAt": "2016-07-29T19:40:25Z",
+        "updatedAt": "2017-08-25T18:42:02Z",
         "description": "Animate path on Leaflet map using D3 (Gimme!, Proletariat)"
       },
       {
@@ -41578,7 +41585,7 @@
         "id": "7288e5271469a45db34b9cc0fea64164",
         "user": "philgyford",
         "createdAt": "2017-07-05T15:33:41Z",
-        "updatedAt": "2017-07-06T09:01:27Z",
+        "updatedAt": "2017-09-05T15:00:13Z",
         "description": "D3.js v4 Ladder Graph"
       },
       {
@@ -42446,7 +42453,7 @@
         "id": "2e58e83685f6d854aa40c7bc546aeb24",
         "user": "sjengle",
         "createdAt": "2017-04-27T19:36:04Z",
-        "updatedAt": "2017-05-08T03:23:35Z",
+        "updatedAt": "2017-09-12T17:18:29Z",
         "description": "Flight Paths Edge Bundling"
       },
       {
@@ -43018,10 +43025,10 @@
       },
       {
         "id": "e5cd405ff113fce12bb3ee6050243ab8",
-        "user": null,
-        "createdAt": null,
-        "updatedAt": null,
-        "description": null
+        "user": "ElaineYu",
+        "createdAt": "2017-06-18T20:18:25Z",
+        "updatedAt": "2017-07-06T15:53:00Z",
+        "description": "Metis Health & Wealth of Nations Increment Year"
       },
       {
         "id": "302940f09387063010b47dbd790be47f",
@@ -43209,7 +43216,7 @@
         "id": "1392966",
         "user": "johan",
         "createdAt": "2011-11-25T06:55:39Z",
-        "updatedAt": "2015-09-28T05:38:00Z",
+        "updatedAt": "2017-08-23T21:50:41Z",
         "description": "Spinny Globe with drag-and-drop-geojson-file support"
       },
       {
@@ -43286,14 +43293,14 @@
         "id": "fc7205221e627184e90bfba234d5d185",
         "user": "tlfrd",
         "createdAt": "2017-07-05T14:30:04Z",
-        "updatedAt": "2017-08-14T12:17:18Z",
+        "updatedAt": "2017-08-15T10:42:35Z",
         "description": "London Constituency Grid Layout"
       },
       {
         "id": "d940d2845d43add71f331b94be98fa44",
         "user": "tlfrd",
         "createdAt": "2017-07-21T09:19:44Z",
-        "updatedAt": "2017-07-21T13:32:21Z",
+        "updatedAt": "2017-08-15T10:46:38Z",
         "description": "London Grid with Geo Shapes"
       },
       {
@@ -43720,14 +43727,14 @@
         "id": "54dd054d22be863da5afe2db02e033e2",
         "user": "vasturiano",
         "createdAt": "2017-03-08T17:49:25Z",
-        "updatedAt": "2017-07-14T06:17:55Z",
+        "updatedAt": "2017-09-21T08:24:37Z",
         "description": "Force-simulated Solar System"
       },
       {
         "id": "5086628299fa6c1bae0094f93d112634",
         "user": "vasturiano",
         "createdAt": "2017-06-01T05:42:49Z",
-        "updatedAt": "2017-06-27T17:36:58Z",
+        "updatedAt": "2017-09-21T08:10:37Z",
         "description": "ForceMagnetic based Hierarchical Orbits"
       },
       {
@@ -43741,7 +43748,7 @@
         "id": "2da88fb89cc75d18b20d8a7776fd6860",
         "user": "vasturiano",
         "createdAt": "2017-07-08T18:36:46Z",
-        "updatedAt": "2017-07-14T06:19:23Z",
+        "updatedAt": "2017-09-19T08:24:19Z",
         "description": "Orbital Trajectory"
       },
       {
@@ -43755,7 +43762,7 @@
         "id": "972ca4f3e8e074dacf14d7071aad8ef9",
         "user": "vasturiano",
         "createdAt": "2017-04-20T06:58:02Z",
-        "updatedAt": "2017-06-21T02:43:03Z",
+        "updatedAt": "2017-09-19T07:24:24Z",
         "description": "VR Force-Directed Graph"
       },
       {
@@ -45136,6 +45143,54 @@
       {
         "source": "3670696",
         "target": "3670696"
+      },
+      {
+        "source": "3680957",
+        "target": "3680958"
+      },
+      {
+        "source": "3680957",
+        "target": "3681006"
+      },
+      {
+        "source": "3680957",
+        "target": "3680999"
+      },
+      {
+        "source": "3680958",
+        "target": "3681006"
+      },
+      {
+        "source": "3680958",
+        "target": "3680999"
+      },
+      {
+        "source": "3680958",
+        "target": "3680957"
+      },
+      {
+        "source": "3680999",
+        "target": "3680958"
+      },
+      {
+        "source": "3680999",
+        "target": "3681006"
+      },
+      {
+        "source": "3680999",
+        "target": "3680957"
+      },
+      {
+        "source": "3681006",
+        "target": "3680958"
+      },
+      {
+        "source": "3681006",
+        "target": "3680999"
+      },
+      {
+        "source": "3681006",
+        "target": "3680957"
       },
       {
         "source": "4053870",
@@ -78422,10 +78477,6 @@
         "target": "10603627"
       },
       {
-        "source": "6905234ea79bc839f2b6d1d61f7261bc",
-        "target": "7a02e811360ff00c4eef"
-      },
-      {
         "source": "2459d917f811fb30ed8ff07e663d2d00",
         "target": "6e6cef56bd49710ca99ccfde33f4b33c,"
       },
@@ -91176,22 +91227,6 @@
       {
         "source": "79239a40a94cbc65efbc374f21e22954",
         "target": "9b8b198a81e749c5ab8b1e06b455db61"
-      },
-      {
-        "source": "3c780088c363d1515403f50a87a87121",
-        "target": "9b8b198a81e749c5ab8b1e06b455db61"
-      },
-      {
-        "source": "3c780088c363d1515403f50a87a87121",
-        "target": "21cd8d6533df723694796948a14b4da1"
-      },
-      {
-        "source": "3c780088c363d1515403f50a87a87121",
-        "target": "5f0c84f0ae23f87e8c9a4c81d1aabd65"
-      },
-      {
-        "source": "3c780088c363d1515403f50a87a87121",
-        "target": "f70c7de43bb91fb7fc7d5bbc3e46a134"
       },
       {
         "source": "f70c7de43bb91fb7fc7d5bbc3e46a134",
@@ -109264,30 +109299,6 @@
       {
         "source": "3220b4e48bbc4e45bec1554b0493c6b5",
         "target": "3884955"
-      },
-      {
-        "source": "9b93f36382e54b95266516647616bc97",
-        "target": "fca58d54f94230a03a348891e866184c"
-      },
-      {
-        "source": "9b93f36382e54b95266516647616bc97",
-        "target": "2793201c7025c416c471e30d30546c6b"
-      },
-      {
-        "source": "9b93f36382e54b95266516647616bc97",
-        "target": "05bd927371a3ccf8bf6039bf1b30e448"
-      },
-      {
-        "source": "9883b0bbba0db6f94c2fbda816ae5f2f",
-        "target": "fca58d54f94230a03a348891e866184c"
-      },
-      {
-        "source": "9883b0bbba0db6f94c2fbda816ae5f2f",
-        "target": "2793201c7025c416c471e30d30546c6b"
-      },
-      {
-        "source": "9883b0bbba0db6f94c2fbda816ae5f2f",
-        "target": "05bd927371a3ccf8bf6039bf1b30e448"
       },
       {
         "source": "30e50fe82819ef73c6b8d9f2d31b99a8",
