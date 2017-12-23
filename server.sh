@@ -1,6 +1,22 @@
 # ssh into digitalocean droplet
 ssh root@138.197.194.92
 
+#
+# to start blockbuilder graph search
+#
+
+# start neo4j - the graph database backend
+sudo service neo4j start
+
+# then everytime you want to start the webserver for the ui
+cd /root/workspace/blockbuilder-graph-search-ui/
+# single page, port 8080
+serve -s build -p 8080
+
+#
+#
+#
+
 # copy local folder to server
 scp -r build root@138.197.194.92:/root/workspace/blockbuilder-graph-search-ui/
 
