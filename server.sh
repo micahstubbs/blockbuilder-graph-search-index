@@ -59,21 +59,6 @@ docker ps -a
 # now setup some front-end things
 #
 
-# configure firewall
-https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
-
-# install nginx to route base IP address to a port we want to show,
-# like for example port 8080 
-https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04
-
-sudo ln -s /etc/nginx/sites-available/graphdata /etc/nginx/sites-enabled/graphdata
-sudo service nginx configtest
-sudo service nginx restart
-
-# configure a reverse proxy
-# so that the domain points where I want it to
-https://www.digitalocean.com/community/questions/how-do-i-point-my-custom-domain-to-my-ip-port-41-111-20-36-8080
-
 # install nodejs on ubuntu
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
  
@@ -125,6 +110,25 @@ sudo iptables -I INPUT -p tcp -s 0.0.0.0/0 --dport 7473 -j ACCEPT
 sudo ufw allow 7687
 sudo ufw allow 7474
 sudo ufw allow 7473
+
+# configure firewall
+https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
+
+# install nginx to route base IP address to a port we want to show,
+# like for example port 8080 
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04
+
+sudo ln -s /etc/nginx/sites-available/graphdata /etc/nginx/sites-enabled/graphdata
+sudo service nginx configtest
+sudo service nginx restart
+
+# configure a reverse proxy
+# so that the domain points where I want it to
+https://www.digitalocean.com/community/questions/how-do-i-point-my-custom-domain-to-my-ip-port-41-111-20-36-8080
+
+#
+#
+#
 
 # copy configuration up to server
 scp neo4j.conf root@138.197.194.92:/etc/neo4j/
