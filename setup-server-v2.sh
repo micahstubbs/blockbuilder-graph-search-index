@@ -101,24 +101,69 @@ sudo apt install neo4j
 # the neo4j server can be stopped with the command
 sudo service neo4j stop
 
-# likewise, we can restart he neo4j server with this command
-sudo service neo4j start
+# first, let's configure the gcp firewall
+# https://cloud.google.com/vpc/docs/using-firewalls
+# Create a new firewall rule
+# under Protocols and Ports, add
+#
+# tcp:7687; tcp:7474; tcp:7473; tcp:8080
+#
+# under filters, select `IP Ranges`
+# and provide the open IP range
+#
+# 0.0.0.0/0
+#
+# config details in these two screenshots
+# to view the screenshots
+cd neo4j/manual-install/
+open gcp-firewall-rule-ingress.png
+open gcp-firewall-rule-egress.png
+# or you could just say
+open *.png
+# to open both images at once
 
-# let's then see if neo4j is running
-# http://35.203.147.195:7474/
-
-# it won't work just yet
-# I see an ERR_CONNECTION_TIMED_OUT message in the browser
-
-# ok, let's open up some ports for neo4j
-# in the firewall 
-# an alternate way to to open up ports for neo4j
+# ok, let's configure the firewall
+# and open up some ports for neo4j 
+# https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
+sudo ufw allow ssh
 sudo ufw allow 7687
 sudo ufw allow 7474
 sudo ufw allow 7473
+sudo ufw allow 8080
+sudo ufw allow http
+sudo ufw allow https
+
+# now turn on the ufw firewall
+sudo ufw enable
+sudo ufw status
+# you should see:
+#
+# Status: active
+
+# To                         Action      From
+# --                         ------      ----
+# 7687                       ALLOW       Anywhere
+# 7474                       ALLOW       Anywhere
+# 7473                       ALLOW       Anywhere
+# 80                         ALLOW       Anywhere
+# 443                        ALLOW       Anywhere
+# 22                         ALLOW       Anywhere
+# 7687 (v6)                  ALLOW       Anywhere (v6)
+# 7474 (v6)                  ALLOW       Anywhere (v6)
+# 7473 (v6)                  ALLOW       Anywhere (v6)
+# 80 (v6)                    ALLOW       Anywhere (v6)
+# 443 (v6)                   ALLOW       Anywhere (v6)
+# 22 (v6)                    ALLOW       Anywhere (v6)
 
 # stop neo4j
 sudo service neo4j stop
+
+# editor the neo4j config file
+# on your local machine
+nano neo4j.conf
+# find the line with dbms.connectors.default_advertised_address=
+# change it to your server's IP address
+# dbms.connectors.default_advertised_address=35.203.147.195
 
 # copy configuration up to server
 # on your local machine
@@ -132,14 +177,13 @@ sudo cp neo4j.conf /etc/neo4j/
 sudo service neo4j start
 sudo service neo4j status
 
-# you can you see the neo4j browser at
-http://138.197.194.92:7474/browser/
+# to debug, you can read the neo4j log file
+# https://neo4j.com/developer/kb/where-is-my-neo4jlog-in-ubuntu-linux/
+journalctl -u neo4j -b > neo4j.log
+vi neo4j.log
 
-# question - why is this a different IP address
-# than external IP 35.203.147.195 
-# that we saw before?
-# some gcp magic?
-# what is micro cdn?
+# now we should be able to see the neo4j browser at
+http://35.203.147.195:7474/browser/
 
 #
 #
