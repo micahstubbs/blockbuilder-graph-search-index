@@ -50,5 +50,5 @@ mkdir workspace
 # now, let's clone some 
 # blockbuilder-graph-search project repos
 cd workspace
-git clone blockbuilder-graph-search-index
-git clone blockbuilder-graph-search-ui
+git clone git@github.com:micahstubbs/blockbuilder-graph-search-index.git
+git clone git@github.com:micahstubbs/blockbuilder-graph-search-ui.git
