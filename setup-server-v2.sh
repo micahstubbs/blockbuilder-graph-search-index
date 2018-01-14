@@ -107,10 +107,43 @@ sudo ufw allow 7687
 sudo ufw allow 7474
 sudo ufw allow 7473
 
+# stop neo4j
+sudo service neo4j stop
+
+# copy configuration up to server
+# on your local machine
+cd blockbuilder-graph-search-index/neo4j/manual-install/
+scp neo4j.conf ubuntu@35.203.147.195:~/workspace/
+
+# on the gcp server
+cd workspace
+sudo cp neo4j.conf /etc/neo4j/
+
+sudo service neo4j start
+sudo service neo4j status
+
+# you can you see the neo4j browser at
+http://138.197.194.92:7474/browser/
+
+# question - why is this a different IP address?
+# some gcp magic?
+# what is micro cdn?
+
 #
-#
-#
-#
+# now let's setup a neo4j database
+# with the blockbuilder search graph 
 #
 
+# first, let's stop neo4j
+sudo service neo4j stop
 
+# then, let's rename that default `graph.db` neo4j database
+# that we created when we started neo4j up for the first time
+sudo mv /var/lib/neo4j/data/databases/graph.db /var/lib/neo4j/data/databases/graph.db.bak
+
+# manually import graph data into neo4j on the server
+sudo neo4j-import --into /var/lib/neo4j/data/databases/graph.db/ --nodes /home/ubuntu/workspace/blockbuilder-graph-search-index/data/csv-graphs-for-neo4j/readme-links-blocks.csv --relationships /home/ubuntu/workspace/blockbuilder-graph-search-index/data/csv-graphs-for-neo4j/readme-links-relationships.csv
+
+# an alternate approach:
+# now, let's copy over our neo4j database that 
+# we created locally earlier
