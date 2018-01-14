@@ -1,11 +1,16 @@
 # a script to setup the new gcp server
 # perhaps a pattern for a container in the future
 
-
 # name
 # blockbuilder-graph-search-1
 # internal IP 10.138.0.2
 # external IP 35.203.147.195
+
+#
+#
+# setup the server itself
+#
+#
 
 # connect to server 
 ssh ubuntu@35.203.147.195
@@ -20,8 +25,10 @@ sudo passwd
 # https://cloud.google.com/compute/docs/ip-addresses/reserve-static-external-ip-address#promote_ephemeral_ip
 
 #
+#
 # install some nice things
 # to make this server feel like home
+#
 #
 
 # we'll follow this oh-my-zsh install guide here
@@ -49,6 +56,7 @@ mkdir workspace
 
 #
 #
+# clone project repos
 #
 #
 
@@ -59,9 +67,11 @@ git clone git@github.com:micahstubbs/blockbuilder-graph-search-index.git
 git clone git@github.com:micahstubbs/blockbuilder-graph-search-ui.git
 
 #
+#
 # install neo4j and depedencies
 # follow this guide
 # http://www.exegetic.biz/blog/2016/09/installing-neo4j-ubuntu-16-04/
+#
 #
 
 # install java
@@ -132,8 +142,10 @@ http://138.197.194.92:7474/browser/
 # what is micro cdn?
 
 #
+#
 # now let's setup a neo4j database
 # with the blockbuilder search graph 
+#
 #
 
 # first, let's stop neo4j
@@ -161,6 +173,7 @@ sudo neo4j-import --into /var/lib/neo4j/data/databases/graph.db/ --nodes /home/u
 # is to copy over a neo4j database that 
 # we create on our local machine
 
+#
 #
 #
 #
