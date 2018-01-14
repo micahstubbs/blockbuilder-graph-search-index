@@ -125,7 +125,9 @@ sudo service neo4j status
 # you can you see the neo4j browser at
 http://138.197.194.92:7474/browser/
 
-# question - why is this a different IP address?
+# question - why is this a different IP address
+# than external IP 35.203.147.195 
+# that we saw before?
 # some gcp magic?
 # what is micro cdn?
 
