@@ -144,6 +144,22 @@ sudo mv /var/lib/neo4j/data/databases/graph.db /var/lib/neo4j/data/databases/gra
 # manually import graph data into neo4j on the server
 sudo neo4j-import --into /var/lib/neo4j/data/databases/graph.db/ --nodes /home/ubuntu/workspace/blockbuilder-graph-search-index/data/csv-graphs-for-neo4j/readme-links-blocks.csv --relationships /home/ubuntu/workspace/blockbuilder-graph-search-index/data/csv-graphs-for-neo4j/readme-links-relationships.csv
 
-# an alternate approach:
-# now, let's copy over our neo4j database that 
-# we created locally earlier
+# if this succeeds, you should see something like this:
+#
+# Done in 40ms
+
+# IMPORT DONE in 3s 221ms.
+# Imported:
+#   6443 nodes
+#   8848 relationships
+#   32161 properties
+# Peak memory usage: 516.30 MB
+
+# it's worth noting that an alternate approach
+# is to copy over a neo4j database that 
+# we create on our local machine
+
+#
+#
+#
+#
