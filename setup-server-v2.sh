@@ -6,3 +6,7 @@
 # blockbuilder-graph-search-1
 # internal IP 10.138.0.2
 # external IP 35.203.147.195
+
+# connect to server 
+ssh ubuntu@35.203.147.195
+
