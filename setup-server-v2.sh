@@ -175,6 +175,51 @@ sudo neo4j-import --into /var/lib/neo4j/data/databases/graph.db/ --nodes /home/u
 
 #
 #
+# setup the graph visualization frontend
 #
 #
+
 #
+# first, let's install some dependencies for the frontend
+#
+
+#
+# install nodejs on ubuntu
+# https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
+#
+
+# to get a recent nodejs, we'll follow these steps:
+sudo apt-get update
+sudo apt-get install build-essential libssl-dev
+curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh -o install_nvm.sh
+
+# inspect the script with the text editor nano
+nano install_nvm.sh
+
+# run install script with bash
+bash install_nvm.sh
+export NVM_DIR="$HOME/.nvm"
+source ~/.profile
+
+# To find out the versions of Node.js that are available for installation, you can type:
+bash
+nvm ls-remote
+nvm install 9.4.0
+zsh
+node -v
+# v9.4.0
+
+# install webserver `serve`
+npm i -g serve
+# /home/ubuntu/.nvm/versions/node/v9.4.0/bin/serve -> /home/ubuntu/.nvm/versions/node/v9.4.0/lib/node_modules/serve/bin/serve.js
+# + serve@6.4.8
+# added 159 packages in 4.964s
+
+# start the webserver for our blockbuilder graph search
+# graph visualization frontend
+cd /home/ubuntu/workspace/blockbuilder-graph-search-ui/
+serve -s build -p 8080 # -s single page, -p port 8080
+ 
+# visit http://138.197.194.92:8080/
+# in the browser and admire your handiwork 🎉
+
