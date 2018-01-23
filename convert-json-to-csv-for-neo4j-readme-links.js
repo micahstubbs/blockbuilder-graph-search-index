@@ -26,7 +26,11 @@ function replaceNull(value) {
 
 // prune links that refer to missing nodes
 const missingNodes = [];
-const nodeList = inputData.graph.nodes.map(d => d.id);
+
+// ensure that we do not have duplicate nodes
+const nodeHash = {};
+inputData.graph.nodes.forEach(d => nodeHash[d.id] = true);
+const nodeList = Object.keys(nodeHash);
 // console.log('nodeList', nodeList);
 
 //
