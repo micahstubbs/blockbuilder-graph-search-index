@@ -8,7 +8,7 @@ CSV_DATA_DIR=/Users/m/workspace/blockbuilder-graph-search-index/data/csv-graphs-
 # nodes source data
 USERS=$CSV_DATA_DIR/users.csv
 FUNCTIONS=$CSV_DATA_DIR/functions.csv
-BLOCKS=$CSV_DATA_DIR/blocks.csv
+BLOCKS=$CSV_DATA_DIR/combined-blocks.csv
 README_BLOCKS=$CSV_DATA_DIR/readme-links-blocks.csv
 COLORS=$CSV_DATA_DIR/colors.csv
 
@@ -21,4 +21,5 @@ BLOCK_USES_COLOR_RELATIONSHIPS=$CSV_DATA_DIR/block-uses-color-relationships.csv
 
 
 cd $NEO4J_HOME
-./bin/neo4j-import --into $GRAPH_DATABASE_DIR --nodes $BLOCKS --nodes $README_BLOCKS --nodes $USERS --nodes $FUNCTIONS --nodes $COLORS --relationships $README_LINKS_RELATIONSHIPS --relationships $USERS_BUILT_BLOCKS_RELATIONSHIPS --relationships $BLOCK_CALLS_FUNCTION_RELATIONSHIPS --relationships $BLOCK_USES_COLOR_RELATIONSHIPS --multiline-fields=true
+# mv $NEO4J_HOME/$GRAPH_DATABASE_DIR $NEO4J_HOME/$GRAPH_DATABASE_DIR.bak
+./bin/neo4j-import --into $GRAPH_DATABASE_DIR --nodes $BLOCKS --nodes $USERS --nodes $FUNCTIONS --nodes $COLORS --relationships $README_LINKS_RELATIONSHIPS --relationships $USERS_BUILT_BLOCKS_RELATIONSHIPS --relationships $BLOCK_CALLS_FUNCTION_RELATIONSHIPS --relationships $BLOCK_USES_COLOR_RELATIONSHIPS --multiline-fields=true

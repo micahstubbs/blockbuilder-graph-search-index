@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/micahstubbs/blockbuilder-graph-search-index#readme",
   "dependencies": {
-    "csv-write-stream": "^2.0.0"
+    "csv": "^3.0.2",
+    "csv-write-stream": "^2.0.0",
+    "ramda": "^0.25.0"
   }
 }
